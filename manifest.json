@@ -1,0 +1,14 @@
+{
+    "files": {
+        "index.js": "90d522be8550441d0520dbda2d5de7ad5c31668d6dbf96335045277e7a659de9",
+        "module.json": "a14b2d28d34da3d73df713b10d735f4f7610eb385680aded60254e7f09b977ef",
+        "settings_migrator.js": "9d4da86cf85ecbad6310ad3b74c45ee7b1d1ada99da6315b3730faad788f3e72"
+    },
+    "defs": {
+        "S_DESPAWN_DROPITEM": 4,
+        "S_DESPAWN_NPC": 3,
+        "S_SPAWN_DROPITEM": 7,
+        "S_SPAWN_NPC": 11,
+        "S_SYSTEM_MESSAGE": 1
+    }
+}
