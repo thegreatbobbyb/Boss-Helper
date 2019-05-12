@@ -209,10 +209,10 @@ module.exports = function BossHelper(mod) {
 			loc: loc,
 			item: mod.settings.itemId,
 			amount: 1,
-			expiry: 600000,
-			owners: [{
-				id: 0
-			}]
+			expiry: 999999,
+			owners: [
+				{playerId: mod.game.me.playerId}
+			]
 		})
 	}
 	
