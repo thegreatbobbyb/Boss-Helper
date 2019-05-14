@@ -57,7 +57,12 @@ module.exports = function BossHelper(mod) {
 					for (const info of mod.settings.bosses) {
 						if (info.killedTime != null) {
 							var nextTime = new Date(info.killedTime + 5*60*60*1000)
-							MSG.chat(MSG.RED(info.name) + " 下次刷新 " + MSG.TIP( nextTime.toLocaleString() ))
+							
+							if (Date.now() > (info.killedTime + 5*60*60*1000)) {
+								MSG.chat(MSG.RED(info.name) + " 上次记录 " + MSG.GRY( nextTime.toLocaleString() ))
+							} else {
+								MSG.chat(MSG.RED(info.name) + " 下次刷新 " + MSG.TIP( nextTime.toLocaleString() ))
+							}
 						}
 					}
 					break
