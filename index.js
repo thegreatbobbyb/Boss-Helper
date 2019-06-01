@@ -23,7 +23,7 @@ module.exports = function BossHelper(mod) {
 	mod.command.add("怪物", (arg) => {
 		if (!arg) {
 			mod.settings.enabled = !mod.settings.enabled
-			MSG.chat("Boss-Helper " + (mod.settings.enabled ? BLU("开启") : YEL("关闭")))
+			MSG.chat("Boss-Helper " + (mod.settings.enabled ? MSG.BLU("开启") : MSG.YEL("关闭")))
 			if (!mod.settings.enabled) {
 				for (let i of mobid) {
 					despawnItem(i)
@@ -41,7 +41,7 @@ module.exports = function BossHelper(mod) {
 					break
 				case "消息":
 					mod.settings.messager = !mod.settings.messager
-					MSG.chat("消息记录 " + (mod.settings.messager ? BLU("启用") : YEL("禁用")))
+					MSG.chat("消息记录 " + (mod.settings.messager ? MSG.BLU("启用") : MSG.YEL("禁用")))
 					break
 				case "标记":
 					mod.settings.marker = !mod.settings.marker
