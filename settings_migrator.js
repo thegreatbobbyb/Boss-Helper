@@ -124,7 +124,7 @@ const DefaultSettings = {
         {huntingZoneId: 183,   templateId: 1271, name: "[流浪商人] 約翰度(伊露卡)"},
         {huntingZoneId: 183,   templateId: 1272, name: "[流浪商人] 約翰度(伊露卡)"},
         {huntingZoneId: 183,   templateId: 1273, name: "[流浪商人] 約翰度(伊露卡)"},
-        {huntingZoneId: 183,   templateId: 1278, name: "[流浪商人] 巴雷谷(伊露卡)"}
+        {huntingZoneId: 183,   templateId: 1278, name: "[流浪商人] 巴雷谷(伊露卡)"},
 
         {huntingZoneId: 172,   templateId: 1271, name: "[流浪商人] 巴雷谷(原始之地)"},
         {huntingZoneId: 181,   templateId: 1271, name: "[流浪商人] 巴雷谷(古代巴拉卡遺跡)"},
