@@ -87,10 +87,10 @@ module.exports = function BossHelper(mod) {
 				mobid.push(event.gameId)
 			}
 			if (mod.settings.alerted) {
-				MSG.alert(("发现 " + boss.name), 44)
+				MSG.alert(("发现 - " + boss.name), 44)
 			}
 			if (mod.settings.notice) {
-				MSG.raids("发现 " + boss.name)
+				MSG.raids("发现 - " + boss.name)
 			}
 		}
 		
