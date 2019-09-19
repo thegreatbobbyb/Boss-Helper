@@ -61,7 +61,7 @@ const DefaultSettings = {
         {huntingZoneId:  27,   templateId: 1271, name: "[流浪商人] 艾沙特(艾賽尼亞丘陵地)"}, // 艾賽尼亞丘陵地帶
         {huntingZoneId:  28,   templateId: 1271, name: "[流浪商人] 艾沙特(汙染森林)"},
         {huntingZoneId:  29,   templateId: 1271, name: "[流浪商人] 艾沙特(古代森林)"},
-        {huntingZoneId:  29,   templateId: 1272, name: "[流浪商人] 艾沙特(古代森林)"},
+        // {huntingZoneId:  29,   templateId: 1272, name: "[流浪商人] 艾沙特(古代森林)"},
         {huntingZoneId:  29,   templateId: 6100, name: "[流浪商人] 艾沙特(古代森林)"},
         {huntingZoneId:  29,   templateId: 6101, name: "[流浪商人] 艾沙特(古代森林)"},
 
@@ -101,7 +101,7 @@ const DefaultSettings = {
         {huntingZoneId:  13,   templateId: 1271, name: "[流浪商人] 巴勒圖(黎明庭園)"},
 
         {huntingZoneId:  63,   templateId: 1271, name: "[流浪商人] 彼得佩依(貝利卡)"},
-        {huntingZoneId:  63,   templateId: 1272, name: "[流浪商人] 彼得佩依(貝利卡)"},
+        // {huntingZoneId:  63,   templateId: 1272, name: "[流浪商人] 彼得佩依(貝利卡)"},
         {huntingZoneId:  63,   templateId: 1273, name: "[流浪商人] 彼得佩依(貝利卡)"},
         {huntingZoneId:  63,   templateId: 1279, name: "[流浪商人] 彼得佩依(貝利卡)"},
         {huntingZoneId:  63,   templateId: 1280, name: "[流浪商人] 彼得佩依(貝利卡)"},
@@ -111,18 +111,18 @@ const DefaultSettings = {
         {huntingZoneId:  63,   templateId: 2952, name: "[流浪商人] 彼得佩依(貝利卡)"},
 
         {huntingZoneId:  72,   templateId: 1271, name: "[流浪商人] 修墨斯克(爾雷曼西亞)"},
-        {huntingZoneId:  72,   templateId: 1272, name: "[流浪商人] 修墨斯克(爾雷曼西亞)"},
+        // {huntingZoneId:  72,   templateId: 1272, name: "[流浪商人] 修墨斯克(爾雷曼西亞)"},
         {huntingZoneId:  72,   templateId: 1273, name: "[流浪商人] 修墨斯克(爾雷曼西亞)"},
 
         {huntingZoneId:  84,   templateId: 1271, name: "[流浪商人] 凱爾門拉依特(凱亞多勒)"},
-        {huntingZoneId:  84,   templateId: 1272, name: "[流浪商人] 凱爾門拉依特(凱亞多勒)"},
+        // {huntingZoneId:  84,   templateId: 1272, name: "[流浪商人] 凱爾門拉依特(凱亞多勒)"},
         {huntingZoneId:  84,   templateId: 1273, name: "[流浪商人] 凱爾門拉依特(凱亞多勒)"},
 
         {huntingZoneId:  63,   templateId: 1278, name: "[流浪商人] 貝拉昆(貝利卡)"},
         {huntingZoneId:  72,   templateId: 1278, name: "[流浪商人] 阿爾魯瑪(爾雷曼西亞)"},
         {huntingZoneId:  84,   templateId: 1278, name: "[流浪商人] 凱依德拉(凱亞多勒)"},
         {huntingZoneId: 183,   templateId: 1271, name: "[流浪商人] 約翰度(伊露卡)"},
-        {huntingZoneId: 183,   templateId: 1272, name: "[流浪商人] 約翰度(伊露卡)"},
+        // {huntingZoneId: 183,   templateId: 1272, name: "[流浪商人] 約翰度(伊露卡)"},
         {huntingZoneId: 183,   templateId: 1273, name: "[流浪商人] 約翰度(伊露卡)"},
         {huntingZoneId: 183,   templateId: 1278, name: "[流浪商人] 巴雷谷(伊露卡)"},
 
