@@ -78,7 +78,6 @@ const DefaultSettings = {
         {huntingZoneId:  40,   templateId: 1271, name: "[城镇 40-1271] 潘奈巴(隔離區)"},
         {huntingZoneId:  41,   templateId: 1271, name: "[城镇 41-1271] 潘奈巴(野蠻溪谷)"},
 
-
         // 凯亚多勒
         {huntingZoneId:  45,   templateId: 1271, name: "[城镇 45-1271] 洛堤卡(青空溪谷)"}, // 傀儡要塞
         {huntingZoneId:  47,   templateId: 1271, name: "[城镇 47-1271] 洛堤卡(堤勒凱伊森林)"},
