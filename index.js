@@ -181,12 +181,25 @@ module.exports = function BossHelper(mod) {
 					}
 				}
 				break
+			case 'SMT_WORLDSPAWN_NOTIFY_SPAWN':
+				getBossMsg(sysMsg.tokens.npcName)
+				whichBoss(bossHunting, bossTemplate)
+				if (boss) {
+					if (mod.settings.messager) {
+						MSG.chat(MSG.BLU("已刷新流浪商人 ") + MSG.RED(boss.name))
+						console.log(new Date().toTimeString() + " 刷新 " + boss.name)
+					}
+				}
+				break
+			case 'SMT_WORLDSPAWN_NOTIFY_DESPAWN':
+				break
 			default :
 				break
 		}
 	})
 	
 	function getBossMsg(id) {
+		/* 
 		switch (id) {
 			case '@creature:26#5001':
 				bossHunting = 26
@@ -205,6 +218,10 @@ module.exports = function BossHelper(mod) {
 				bossTemplate = 0
 				return
 		}
+		 */
+		var npcID = id.match(/\d+/ig)
+		bossHunting = npcID[0]
+		bossTemplate = npcID[1]
 	}
 	
 	function whichBoss(h_ID, t_ID) {

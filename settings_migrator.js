@@ -96,14 +96,13 @@ const DefaultSettings = {
         {huntingZoneId:  56,   templateId: 1271, name: "[城镇 56-1271] 希爾貝塔(黑暗森林)"},
         {huntingZoneId:  57,   templateId: 1271, name: "[城镇 57-1271] 希爾貝塔(阿梅納夸特拉)"},
 
+        // 伊露卡
         {huntingZoneId: 172,   templateId: 1271, name: "[城镇 172-1271] 巴雷谷(原始之地)"},
         {huntingZoneId: 181,   templateId: 1271, name: "[城镇 181-1271] 巴雷谷(古代巴拉卡遺跡)"},
         {huntingZoneId: 182,   templateId: 1271, name: "[城镇 182-1271] 巴雷谷(巴拉卡尼亞丘陵地)"},
         {huntingZoneId: 191,   templateId: 1271, name: "[城镇 191-1271] 巴雷谷(帝國之地)"},
 
         // 特殊/直辖 地区
-        {huntingZoneId:  13,   templateId: 1271, name: "[城镇 13-1271] 巴勒圖(黎明庭園)"},
-
         {huntingZoneId:  63,   templateId: 1271, name: "[都市 63-1271] 彼得佩依(貝利卡)"},
         {huntingZoneId:  63,   templateId: 1272, name: "[都市 63-1272] 彼得佩依(貝利卡)"},
         {huntingZoneId:  63,   templateId: 1273, name: "[都市 63-1273] 彼得佩依(貝利卡)"},
@@ -122,9 +121,11 @@ const DefaultSettings = {
         {huntingZoneId:  84,   templateId: 1272, name: "[都市 84-1272] 凱爾門拉依特(凱亞多勒)"},
         {huntingZoneId:  84,   templateId: 1273, name: "[都市 84-1273] 凱爾門拉依特(凱亞多勒)"},
 
-        {huntingZoneId:  63,   templateId: 1278, name: "[都市 63-1278] 貝拉昆(貝利卡)"},
-        {huntingZoneId:  72,   templateId: 1278, name: "[都市 72-1278] 阿爾魯瑪(爾雷曼西亞)"},
-        {huntingZoneId:  84,   templateId: 1278, name: "[都市 84-1278] 凱依德拉(凱亞多勒)"},
+
+        {huntingZoneId:  13,   templateId: 1271, name: "[城镇  13-1271] 巴勒圖(黎明庭園)"},
+        {huntingZoneId:  63,   templateId: 1278, name: "[都市  63-1278] 貝拉昆(貝利卡)"},
+        {huntingZoneId:  72,   templateId: 1278, name: "[都市  72-1278] 阿爾魯瑪(爾雷曼西亞)"},
+        {huntingZoneId:  84,   templateId: 1278, name: "[都市  84-1278] 凱依德拉(凱亞多勒)"},
         {huntingZoneId: 183,   templateId: 1271, name: "[都市 183-1271] 約翰度(伊露卡)"},
 // {huntingZoneId: 183,   templateId: 1272, name: "[都市 183-1272] 約翰度(伊露卡)"},
         {huntingZoneId: 183,   templateId: 1273, name: "[都市 183-1273] 約翰度(伊露卡)"},
