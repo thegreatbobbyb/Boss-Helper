@@ -2,21 +2,11 @@ module.exports = function BossHelper(mod) {
 	const Message = require('../tera-message')
 	const MSG = new Message(mod)
 	
-	if (mod.proxyAuthor !== 'caali') {
-		const options = require('./module').options
-		if (options) {
-			const settingsVersion = options.settingsVersion
-			if (settingsVersion) {
-				mod.settings = require('./' + (options.settingsMigrator || 'settings_migrator.js'))(mod.settings._version, settingsVersion, mod.settings)
-				mod.settings._version = settingsVersion
-			}
-		}
-	}
-	
 	let mobid = [],
 		boss = null,
 		bossName = null,
 		sysMsg = null,
+		npcID = null,
 		bossHunting = 0,
 		bossTemplate = 0
 	
@@ -154,7 +144,7 @@ module.exports = function BossHelper(mod) {
 				whichBoss(bossHunting, bossTemplate)
 				if (boss) {
 					if (mod.settings.messager) {
-						MSG.chat(MSG.BLU("已刷新 ") + "世界BOSS" + MSG.RED(boss.name))
+						MSG.chat(MSG.BLU("已刷新") + " 世界BOSS " + MSG.RED(boss.name))
 						console.log(new Date().toTimeString() + " 刷新 " + boss.name)
 					}
 				}
@@ -186,7 +176,7 @@ module.exports = function BossHelper(mod) {
 				whichBoss(bossHunting, bossTemplate)
 				if (boss) {
 					if (mod.settings.messager) {
-						MSG.chat(MSG.BLU("已刷新 ") + "流浪商人" + MSG.PIK(boss.name))
+						MSG.chat(MSG.BLU("已刷新") + " 流浪商人 " + MSG.PIK(boss.name))
 						console.log(new Date().toTimeString() + " 刷新 " + boss.name)
 					}
 				}
@@ -199,27 +189,7 @@ module.exports = function BossHelper(mod) {
 	})
 	
 	function getBossMsg(id) {
-		/* 
-		switch (id) {
-			case '@creature:26#5001':
-				bossHunting = 26
-				bossTemplate = 5001
-				return
-			case '@creature:39#501':
-				bossHunting = 39
-				bossTemplate = 501
-				return
-			case '@creature:51#4001':
-				bossHunting = 51
-				bossTemplate = 4001
-				return
-			default :
-				bossHunting = 0
-				bossTemplate = 0
-				return
-		}
-		 */
-		var npcID = id.match(/\d+/ig)
+		npcID = id.match(/\d+/ig)
 		bossHunting = npcID[0]
 		bossTemplate = npcID[1]
 	}
@@ -326,5 +296,4 @@ module.exports = function BossHelper(mod) {
 	function hook() {
 		hooks.push(mod.hook(...arguments));
 	}
-	
 }

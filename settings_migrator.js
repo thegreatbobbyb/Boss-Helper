@@ -31,7 +31,7 @@ const DefaultSettings = {
 
         {huntingZoneId: 26,   templateId: 5001, name: "奧勒曇(生命溪谷)", killedTime: null, nextTime: null},
         {huntingZoneId: 39,   templateId: 501,  name: "哈迦叻(拓荒村莊)", killedTime: null, nextTime: null},
-        {huntingZoneId: 51,   templateId: 4001, name: "蓋洛司(野獸高原)", killedTime: null, nextTime: null},
+        {huntingZoneId: 51,   templateId: 4001, name: "蓋洛司(希望村莊)", killedTime: null, nextTime: null},
 
         // 贝里卡
         {huntingZoneId:   2,   templateId: 1271, name: "[城镇  2-1271] 阿勒坤(西部砍伐區)"},
@@ -40,21 +40,21 @@ const DefaultSettings = {
         {huntingZoneId:   6,   templateId: 1271, name: "[城镇  6-1271] 阿勒坤(咆哮侵略地)"},
         {huntingZoneId:   7,   templateId: 1271, name: "[城镇  7-1271] 阿勒坤(永恆盆地)"}, // 學識丘陵
 
-        {huntingZoneId:   4,   templateId: 1271, name: "[城镇  4-1271] 依托羅(爆炎山脈)"},
-        {huntingZoneId:   9,   templateId: 1271, name: "[城镇  9-1271] 依托羅(貪婪溪谷)"}, // 貪欲的黃金神殿
-        {huntingZoneId:  10,   templateId: 1271, name: "[城镇 10-1271] 依托羅(蛇之島)"},
-        {huntingZoneId:  11,   templateId: 1271, name: "[城镇 11-1271] 依托羅(荒涼海岸)"}, // 海賊巢窟
-        {huntingZoneId:  12,   templateId: 1271, name: "[城镇 12-1271] 依托羅(絕望之島)"}, // 迷霧之島
+        {huntingZoneId:   4,   templateId: 1271, name: "[東部領地]依托羅(爆炎山脈)"},
+        {huntingZoneId:   9,   templateId: 1271, name: "[東部領地]依托羅(貪婪溪谷)"}, // 貪欲的黃金神殿
+        {huntingZoneId:  10,   templateId: 1271, name: "[東部領地]依托羅(蛇之島)"},
+        {huntingZoneId:  11,   templateId: 1271, name: "[東部領地]依托羅(荒涼海岸)"}, // 海賊巢窟
+        {huntingZoneId:  12,   templateId: 1271, name: "[東部領地]依托羅(絕望之島)"}, // 迷霧之島
 
         {huntingZoneId:  15,   templateId: 1271, name: "[城镇 15-1271] 波雷塔(狂氣丘陵)"}, // 狂怒丘陵
         {huntingZoneId:  16,   templateId: 1271, name: "[城镇 16-1271] 波雷塔(凡貝爾丘陵)"},
         {huntingZoneId:  17,   templateId: 1271, name: "[城镇 17-1271] 波雷塔(帕拉諾峽谷)"},
         {huntingZoneId:  23,   templateId: 1271, name: "[城镇 23-1271] 波雷塔(月之湖)"},
 
-        {huntingZoneId:  18,   templateId: 1271, name: "[城镇 18-1271] 菲亞圖(遺忘巨人之都)"},
-        {huntingZoneId:  19,   templateId: 1271, name: "[城镇 19-1271] 菲亞圖(利卡諾勒曠野)"}, // 叛亂曠野
-        {huntingZoneId:  21,   templateId: 1271, name: "[城镇 21-1271] 菲亞圖(蜥蜴王巢穴)"},
-        {huntingZoneId:  24,   templateId: 1271, name: "[城镇 24-1271] 菲亞圖(黃金之路)"},
+        {huntingZoneId:  18,   templateId: 1271, name: "[比亞阿鳥雷溫領地] 菲亞圖(遺忘巨人之都)"},
+        {huntingZoneId:  19,   templateId: 1271, name: "[比亞阿鳥雷溫領地] 菲亞圖(利卡諾勒曠野)"}, // 叛亂曠野
+        {huntingZoneId:  21,   templateId: 1271, name: "[比亞阿鳥雷溫領地] 菲亞圖(蜥蜴王巢穴)"},
+        {huntingZoneId:  24,   templateId: 1271, name: "[比亞阿鳥雷溫領地] 菲亞圖(黃金之路)"},
 
         // 尔雷曼西亚
         {huntingZoneId:  26,   templateId: 1271, name: "[城镇 26-1271] 艾沙特(生命溪谷)"},
@@ -90,10 +90,10 @@ const DefaultSettings = {
         {huntingZoneId:  51,   templateId: 1271, name: "[城镇 51-1271] 洛亞昆(阿爾卡笛亞峽谷)"}, // 野獸高原
         {huntingZoneId:  52,   templateId: 1271, name: "[城镇 52-1271] 洛亞昆(遺忘者雪原)"}, // 使者戰場
 
-        {huntingZoneId:  54,   templateId: 1271, name: "[城镇 54-1271] 希爾貝塔(妖精森林)"},
-        {huntingZoneId:  55,   templateId: 1271, name: "[城镇 55-1271] 希爾貝塔(暗影森林)"},
-        {huntingZoneId:  56,   templateId: 1271, name: "[城镇 56-1271] 希爾貝塔(黑暗森林)"},
-        {huntingZoneId:  57,   templateId: 1271, name: "[城镇 57-1271] 希爾貝塔(阿梅納夸特拉)"},
+        {huntingZoneId:  54,   templateId: 1271, name: "[希巴尼亞領地]希爾貝塔(妖精森林)"},
+        {huntingZoneId:  55,   templateId: 1271, name: "[希巴尼亞領地]希爾貝塔(暗影森林)"},
+        {huntingZoneId:  56,   templateId: 1271, name: "[希巴尼亞領地]希爾貝塔(黑暗森林)"},
+        {huntingZoneId:  57,   templateId: 1271, name: "[希巴尼亞領地]希爾貝塔(阿梅納夸特拉)"},
 
         // 伊露卡
         {huntingZoneId: 172,   templateId: 1271, name: "[城镇 172-1271] 巴雷谷(原始之地)"},
@@ -121,7 +121,7 @@ const DefaultSettings = {
         {huntingZoneId:  84,   templateId: 1273, name: "[都市 84-1273] 凱爾門拉依特(凱亞多勒)"},
 
 
-        {huntingZoneId:  13,   templateId: 1271, name: "[城镇  13-1271] 巴勒圖(黎明庭園)"},
+        {huntingZoneId:  13,   templateId: 1271, name: "[巴其溫保護領地]巴勒圖(黎明庭園)"},
         {huntingZoneId:  63,   templateId: 1278, name: "[都市  63-1278] 貝拉昆(貝利卡)"},
         {huntingZoneId:  72,   templateId: 1278, name: "[都市  72-1278] 阿爾魯瑪(爾雷曼西亞)"},
         {huntingZoneId:  84,   templateId: 1278, name: "[都市  84-1278] 凱依德拉(凱亞多勒)"},
@@ -142,30 +142,24 @@ module.exports = function MigrateSettings(from_ver, to_ver, settings) {
         return DefaultSettings;
     } else {
         // Migrate from older version (using the new system) to latest one
-        if (from_ver + 1 < to_ver) {
-            // Recursively upgrade in one-version steps
+        if (from_ver + 1 < to_ver) { // Recursively upgrade in one-version steps
             settings = MigrateSettings(from_ver, from_ver + 1, settings);
             return MigrateSettings(from_ver + 1, to_ver, settings);
         }
-        
         // If we reach this point it's guaranteed that from_ver === to_ver - 1, so we can implement
         // a switch for each version step that upgrades to the next version. This enables us to
         // upgrade from any version to the latest version without additional effort!
-        switch(to_ver) {
+        switch (to_ver) {
             default:
                 let oldsettings = settings
-                
                 settings = Object.assign(DefaultSettings, {});
-                
-                for(let option in oldsettings) {
-                    if(settings[option]) {
+                for (let option in oldsettings) {
+                    if (settings[option]) {
                         settings[option] = oldsettings[option]
                     }
                 }
-                
                 break;
         }
-        
         return settings;
     }
 }
