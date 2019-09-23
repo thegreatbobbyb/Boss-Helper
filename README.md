@@ -58,7 +58,7 @@ Boss-Helper 怪物提示
 
 ------
 
-夏拉南部_02 貝勒沙 - 太陽庭院
+夏拉南部_02 貝勒沙 - [倍里達斯特別地區] 太陽庭院
 ![screenshot](https://github.com/tera-mod/Boss-Helper/blob/master/screenshot/06.png)
 
 ------
@@ -103,7 +103,7 @@ Boss-Helper 怪物提示
 
 ------
 
-亚伦北部_01 巴雷谷 - 原始之地 / 古代巴拉卡遺跡 / 巴拉卡尼亞丘陵地 / 帝國之地 / 伊露卡
+亚伦北部_01 巴雷谷 - [ 巴拉卡尼亞領地]原始之地 / 古代巴拉卡遺跡 / 巴拉卡尼亞丘陵地 / 帝國之地 / 伊露卡
 ![screenshot](https://github.com/tera-mod/Boss-Helper/blob/master/screenshot/15.png)
 
 ------

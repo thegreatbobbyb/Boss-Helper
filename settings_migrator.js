@@ -65,7 +65,7 @@ const DefaultSettings = {
         // {huntingZoneId:  29,   templateId: 6100, name: "[29-6100] 艾沙特(古代森林)"},
         // {huntingZoneId:  29,   templateId: 6101, name: "[29-6101] 艾沙特(古代森林)"},
 
-{huntingZoneId:  30,   templateId: 1271, name: "[30-1271] 貝勒沙(太陽庭院)"}, // 眾神戰場
+{huntingZoneId:  30,   templateId: 1271, name: "[倍里達斯特別地區]貝勒沙(太陽庭院)"}, // 眾神戰場
 
         {huntingZoneId:  31,   templateId: 1271, name: "[威斯多尼亞領地]斯托蘭(冰凍海岸)"}, // 暴風海岸
         {huntingZoneId:  32,   templateId: 1271, name: "[威斯多尼亞領地]斯托蘭(暴君高原)"},
