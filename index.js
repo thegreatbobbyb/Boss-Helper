@@ -144,7 +144,7 @@ module.exports = function BossHelper(mod) {
 				whichBoss(bossHunting, bossTemplate)
 				if (boss) {
 					if (mod.settings.messager) {
-						MSG.chat(MSG.BLU("已刷新") + " 世界BOSS " + MSG.RED(boss.name))
+						MSG.chat("已刷新" + MSG.BLU(" 世界BOSS ") + MSG.RED(boss.name))
 						console.log(new Date().toTimeString() + " 刷新 " + boss.name)
 					}
 				}
@@ -176,7 +176,7 @@ module.exports = function BossHelper(mod) {
 				whichBoss(bossHunting, bossTemplate)
 				if (boss) {
 					if (mod.settings.messager) {
-						MSG.chat(MSG.BLU("已刷新") + " 流浪商人 " + MSG.PIK(boss.name))
+						MSG.chat("已刷新" + MSG.BLU(" 流浪商人 ") + MSG.PIK(boss.name))
 						console.log(new Date().toTimeString() + " 刷新 " + boss.name)
 					}
 				}
