@@ -61,6 +61,9 @@ const DefaultSettings = {
         {huntingZoneId:  27,   templateId: 1271, name: "[艾赛尼亚领地]艾沙特(艾賽尼亞丘陵地)"}, // 艾賽尼亞丘陵地帶
         {huntingZoneId:  28,   templateId: 1271, name: "[艾赛尼亚领地]艾沙特(汙染森林)"},
         {huntingZoneId:  29,   templateId: 1271, name: "[艾赛尼亚领地]艾沙特(古代森林)"},
+        {huntingZoneId:  29,   templateId: 1272, name: "[城镇 29-1272] 艾沙特(古代森林)"},
+        // {huntingZoneId:  29,   templateId: 6100, name: "[城镇 29-6100] 艾沙特(古代森林)"},
+        // {huntingZoneId:  29,   templateId: 6101, name: "[城镇 29-6101] 艾沙特(古代森林)"},
 
 {huntingZoneId:  30,   templateId: 1271, name: "[城镇 30-1271] 貝勒沙(太陽庭院)"}, // 眾神戰場
 
@@ -97,13 +100,21 @@ const DefaultSettings = {
 {huntingZoneId: 181,   templateId: 1271, name: "[城镇 181-1271] 巴雷谷(古代巴拉卡遺跡)"},
 {huntingZoneId: 182,   templateId: 1271, name: "[城镇 182-1271] 巴雷谷(巴拉卡尼亞丘陵地)"},
 {huntingZoneId: 191,   templateId: 1271, name: "[城镇 191-1271] 巴雷谷(帝國之地)"},
-{huntingZoneId: 183,   templateId: 1278, name: "[都市 183-1278] 巴雷谷(伊露卡)"},
 
 {huntingZoneId: 183,   templateId: 1271, name: "[都市 183-1271] 約翰度(伊露卡)"},
+{huntingZoneId: 183,   templateId: 1278, name: "[都市 183-1278] 巴雷谷(伊露卡)"},
 
         // 直辖
         {huntingZoneId:  63,   templateId: 1271, name: "[貝利卡神秘商店]彼得佩依(貝利卡)"},
-{huntingZoneId:  63,   templateId: 1278, name: "[都市  63-1278] 貝拉昆(貝利卡)"},
+// {huntingZoneId:  63,   templateId: 1272, name: "[都市 63-1272] 彼得佩依(貝利卡)"},
+// {huntingZoneId:  63,   templateId: 1273, name: "[都市 63-1273] 彼得佩依(貝利卡)"},
+        {huntingZoneId:  63,   templateId: 1278, name: "[贝里克直辖领地]貝拉昆(貝利卡)"},
+        {huntingZoneId:  63,   templateId: 1279, name: "[貝利卡神秘商店]彼得佩依(貝利卡)"},
+// {huntingZoneId:  63,   templateId: 1280, name: "[都市 63-1280] 彼得佩依(貝利卡)"},
+        {huntingZoneId:  63,   templateId: 1281, name: "[都市 63-1281] 彼得佩依(貝利卡)"},
+// {huntingZoneId:  63,   templateId: 2950, name: "[都市 63-2950] 彼得佩依(貝利卡)"},
+// {huntingZoneId:  63,   templateId: 2951, name: "[都市 63-2951] 彼得佩依(貝利卡)"},
+// {huntingZoneId:  63,   templateId: 2952, name: "[都市 63-2952] 彼得佩依(貝利卡)"},
 
 {huntingZoneId:  72,   templateId: 1271, name: "[都市 72-1271] 修墨斯克(爾雷曼西亞)"},
 {huntingZoneId:  72,   templateId: 1278, name: "[都市 72-1278] 阿爾魯瑪(爾雷曼西亞)"},
