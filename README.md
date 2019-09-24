@@ -553,3 +553,46 @@ https://home.gamer.com.tw/creationDetail.php?sn=4507080
 ![screenshot](https://truth.bahamut.com.tw/s01/201909/fe2dce4c26701b9199ef3c432e23ccd9.JPG)
 
 [返回目录](#目录)
+
+------
+
+# 巴其溫保護領地-巴勒圖
+
+[返回目录](#目录)
+
+013 黎明庭園 - 黎明庭園碼頭
+![screenshot](https://truth.bahamut.com.tw/s01/201909/e6a1a54f7fc19ee1da764f74669d2d93.JPG)
+
+013 黎明庭園 - 守備隊北部營地
+![screenshot](https://truth.bahamut.com.tw/s01/201909/56bd58478fe849dcd3dc3f2088fe0205.JPG)
+
+013 黎明庭園 - 守備隊中部營地
+![screenshot](https://truth.bahamut.com.tw/s01/201909/5fdb0454245e36d943d5151667cc3640.JPG)
+
+013 黎明庭園 - 守備隊南部營地
+![screenshot](https://truth.bahamut.com.tw/s01/201909/597a51580f4b6767ee75661e476d6157.JPG)
+
+013 黎明庭園 - 眾神的露臺
+![screenshot](https://truth.bahamut.com.tw/s01/201909/0681da18291ca50f6e32362fccf79796.JPG)
+
+013 黎明庭園 - 洛克追蹤者基地
+![screenshot](https://truth.bahamut.com.tw/s01/201909/8045cfa62c3bfb6a08caf5a025db561e.JPG)
+
+013 黎明庭園 - 破壞的神殿地 中央
+![screenshot](https://truth.bahamut.com.tw/s01/201909/55bbc1c8644de74ed48c949f8d89622d.JPG)
+
+013 黎明庭園 - 太古遺跡地 中央
+![screenshot](https://truth.bahamut.com.tw/s01/201909/ba0bc2a21af5d1635fc579426bac7db3.JPG)
+
+013 黎明庭園 - 亞倫丘陵 碑石
+![screenshot](https://truth.bahamut.com.tw/s01/201909/8e7c3b2a2255ad1dc6b7612aaeedb927.JPG)
+
+[返回目录](#目录)
+
+------
+
+# 神秘商人
+
+[返回目录](#目录)
+
+[返回目录](#目录)
