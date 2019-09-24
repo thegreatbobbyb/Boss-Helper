@@ -103,13 +103,10 @@ const DefaultSettings = {
 /* ==== 神秘商店 ======================================================================================== */
         {huntingZoneId:  63,   templateId: 1271, name: "[神秘商店]1271 彼得佩依(貝利卡)"},
         {huntingZoneId:  63,   templateId: 1273, name: "[神秘商店]1273 彼得佩依(貝利卡)"},
-
         {huntingZoneId:  63,   templateId: 1279, name: "[神秘商店]1279 彼得佩依(貝利卡)"},
         {huntingZoneId:  63,   templateId: 1281, name: "[神秘商店]1281 彼得佩依(貝利卡)"},
-
         {huntingZoneId:  72,   templateId: 1271, name: "[神秘商店]1271 修墨斯克(爾雷曼西亞)"},
         {huntingZoneId:  72,   templateId: 1273, name: "[神秘商店]1273 修墨斯克(爾雷曼西亞)"},
-
         {huntingZoneId:  84,   templateId: 1271, name: "[神秘商店]1271 凱爾門拉依特(凱亞多勒)"},
         {huntingZoneId:  84,   templateId: 1273, name: "[神秘商店]1273 凱爾門拉依特(凱亞多勒)"},
 
