@@ -37,7 +37,9 @@ Boss-Helper 怪物提示
 
 https://home.gamer.com.tw/creationDetail.php?sn=4507080
 
-# 亚伦南部_1 阿勒坤 [阿卡尼亞領地]
+------
+
+# 亚伦南部_1 阿勒坤 [阿卡尼亞領地][11P]
 
 002 西部砍伐區 - 森林守護者營地
 ![screenshot](https://truth.bahamut.com.tw/s01/201909/48312e1572f4e193b81afab1ff298b46.JPG)
@@ -74,7 +76,7 @@ https://home.gamer.com.tw/creationDetail.php?sn=4507080
 
 ------
 
-# 亚伦南部_2 依托羅 - [東部領地]
+# 亚伦南部_2 依托羅 - [東部領地][8P]
 
 004爆炎山脈 - 巴哈勒神殿入口
 ![screenshot](https://truth.bahamut.com.tw/s01/201909/d5d2defd494c93801f7247b278e7e611.JPG)
@@ -102,7 +104,7 @@ https://home.gamer.com.tw/creationDetail.php?sn=4507080
 
 ------
 
-# 亚伦南部_3 波雷塔 - [波波利亞領地]
+# 亚伦南部_3 波雷塔 - [波波利亞領地][8P]
 
 015 狂氣丘陵 - 鎮壓營地
 ![screenshot](https://truth.bahamut.com.tw/s01/201909/8267edad60f400f588f7159f5c5b9cee.JPG)
@@ -130,7 +132,31 @@ https://home.gamer.com.tw/creationDetail.php?sn=4507080
 
 ------
 
-亚伦南部_4 菲亞圖 - [比亞阿鳥雷溫領地] 遺忘巨人之都 / 利卡諾勒曠野 / 蜥蜴王巢穴 / 黃金之路
+# 亚伦南部_4 菲亞圖 - [比亞阿鳥雷溫領地][8P]
+
+018 遺忘巨人之都 - 調查基地
+![screenshot](https://truth.bahamut.com.tw/s01/201909/d00e9367ad0eed0636b67d84bee5363d.JPG)
+
+019 利卡諾勒曠野 - 利卡諾勒競技場
+![screenshot](https://truth.bahamut.com.tw/s01/201909/fcf7e0ec34202907e67716b6ccb1cce3.JPG)
+
+019 利卡諾勒曠野 - 自由兄弟團投降地
+![screenshot](https://truth.bahamut.com.tw/s01/201909/3f93dfa281e7dcd4813a80408ec6a269.JPG)
+
+021 蜥蜴王巢穴 - 蜥蜴王偵查營地
+![screenshot](https://truth.bahamut.com.tw/s01/201909/1b8d89ee9c79c53336983587bdc90f04.JPG)
+
+021 蜥蜴王巢穴 - 仙人掌村莊 屋頂
+![screenshot](https://truth.bahamut.com.tw/s01/201909/2098b4561f79690ecea0562db08d73cd.JPG)
+
+024 黃金之路 - 海岸基地
+![screenshot](https://truth.bahamut.com.tw/s01/201909/bd35c747f980490578ddec1cca688433.JPG)
+
+024 黃金之路 - 邪教徒鎮壓營地
+![screenshot](https://truth.bahamut.com.tw/s01/201909/dd36de78664819ee153a5aef521cf6c7.JPG)
+
+024 黃金之路 - 沙漠休憩地 中
+![screenshot](https://truth.bahamut.com.tw/s01/201909/4071b89c2eece3e3e0d8f51769df96c8.JPG)
 
 ------
 
