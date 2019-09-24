@@ -49,15 +49,15 @@ https://home.gamer.com.tw/creationDetail.php?sn=4507080
 
 [亚伦南部4 菲亞圖 比亞阿鳥雷溫領地](#比亞阿鳥雷溫領地-菲亞圖)
 
-[夏拉南部_1 艾沙特 艾赛尼亚领地](#艾赛尼亚领地-艾沙特)
+[夏拉南部1 艾沙特 艾賽尼亞領地](#艾賽尼亞領地-艾沙特)
 
-[夏拉南部_2]()
+[夏拉南部2 貝勒沙 倍里達斯特別地區](#倍里達斯特別地區-貝勒沙)
 
-[夏拉南部_3]()
+[夏拉南部3]()
 
-[夏拉南部_4]()
+[夏拉南部4]()
 
-[夏拉南部_5]()
+[夏拉南部5]()
 
 ------
 
@@ -227,11 +227,41 @@ https://home.gamer.com.tw/creationDetail.php?sn=4507080
 
 ------
 
-夏拉南部_2 貝勒沙 - [倍里達斯特別地區] 太陽庭院
+# 倍里達斯特別地區-貝勒沙
+
+[返回目录](#目录)
+
+030 太陽庭院 - 青色寧靜調查營地
+![screenshot](https://truth.bahamut.com.tw/s01/201909/884c9d5eb5fb9ce93762ddf7e68c2e30.JPG)
+
+030 太陽庭院 - 白色寧靜森林 湖邊
+![screenshot](https://truth.bahamut.com.tw/s01/201909/71af76ce9086fa542fe2e8cc40f6b8c8.JPG)
+
+030 太陽庭院 - 守護者任務 瞭望台
+![screenshot](https://truth.bahamut.com.tw/s01/201909/f32432598b6977e2957971fd5e8b0555.JPG)
+
+030 太陽庭院 - 謝絕友好團營地
+![screenshot](https://truth.bahamut.com.tw/s01/201909/7bde78afc68310834d90723685f5e35a.JPG)
+
+030 太陽庭院 - 東部溪谷探索營地
+![screenshot](https://truth.bahamut.com.tw/s01/201909/299d49eb202cf9e0b15b27c780419d10.JPG)
+
+030 太陽庭院 - 賽蓮之湖釣魚場
+![screenshot](https://truth.bahamut.com.tw/s01/201909/5e7b701739482e949528dca30d241a80.JPG)
+
+030 太陽庭院 - 賽蓮庭園 東
+![screenshot](https://truth.bahamut.com.tw/s01/201909/21c5b756092fd21b29f63f89eb2bb0bd.JPG)
+
+030 太陽庭院 - 阿吉斯研究所 交易
+![screenshot](https://truth.bahamut.com.tw/s01/201909/cf444d0c4acd0aa7209c148226ecf027.JPG)
+
+[返回目录](#目录)
 
 ------
 
 夏拉南部_3 斯托蘭 - [威斯多尼亞領地] 冰凍海岸 / 暴君高原 / 寒冰凍原
+
+[返回目录](#目录)
 
 ------
 
