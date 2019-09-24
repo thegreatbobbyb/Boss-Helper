@@ -435,9 +435,17 @@ https://home.gamer.com.tw/creationDetail.php?sn=4507080
 
 [返回目录](#目录)
 
-050 阿勒古內雅
+050 阿勒古內雅 - 能量儲藏庫 頂端
+![screenshot](https://truth.bahamut.com.tw/s01/201909/e25e7f567472d554deeb2c6886398eb9.JPG)
 
-049 卡勒古內雅
+050 阿勒古內雅 - 南方翅膀石
+![screenshot](https://truth.bahamut.com.tw/s01/201909/9bcc6790be2d3f3836af290a7581e698.JPG)
+
+049 卡勒古內雅 - 隱藏營地
+![screenshot](https://truth.bahamut.com.tw/s01/201909/138b23fd690c25780b4920dbf1253052.JPG)
+
+049 卡勒古內雅 - 角落翅膀石
+![screenshot](https://truth.bahamut.com.tw/s01/201909/925b01d74535273682ee7cc0868e2832.JPG)
 
 [返回目录](#目录)
 
