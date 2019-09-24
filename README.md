@@ -632,11 +632,11 @@ https://home.gamer.com.tw/creationDetail.php?sn=4507080
 063 貝利卡近郊 - 西側道路南方地標
 ![screenshot](https://truth.bahamut.com.tw/s01/201909/b2523fb25026eb179f6781ad930b4ef4.JPG)
 
-063 貝利卡近郊 - 西門大橋
-![screenshot](https://truth.bahamut.com.tw/s01/201909/50d3dc80f9873d4318d6b12dc756ebc6.JPG)
-
 063 貝利卡近郊 - 馬場
 ![screenshot](https://truth.bahamut.com.tw/s01/201909/0f57bdb117763d07701bdc39c674efbb.JPG)
+
+063 貝利卡近郊 - 西門大橋
+![screenshot](https://truth.bahamut.com.tw/s01/201909/50d3dc80f9873d4318d6b12dc756ebc6.JPG)
 
 [返回目录](#目录)
 
@@ -664,10 +664,10 @@ https://home.gamer.com.tw/creationDetail.php?sn=4507080
 072 爾雷曼西亞西部 - 西部 橋柱
 ![screenshot](https://truth.bahamut.com.tw/s01/201909/895319765cab215b89a8201987160f77.JPG)
 
-072 爾雷曼西亞 - 西部 洞窟
+072 爾雷曼西亞西部 - 西部 洞窟
 ![screenshot](https://truth.bahamut.com.tw/s01/201909/00a22046275174ab2371dd2194b77475.JPG)
 
-072 爾雷曼西亞 - 西部 石門
+072 爾雷曼西亞西部 石門
 ![screenshot](https://truth.bahamut.com.tw/s01/201909/37eb9bcd30d1351c2bcd0d8b8753c0c8.JPG)
 
 [返回目录](#目录)
@@ -678,26 +678,26 @@ https://home.gamer.com.tw/creationDetail.php?sn=4507080
 
 [返回目录](#目录)
 
-084 凱亞多勒1
-![screenshot]()
+084 凱亞多勒 - 南門口
+![screenshot](https://truth.bahamut.com.tw/s01/201909/e9540b57e0e9c2affe777736bdceee00.JPG)
 
-084 凱亞多勒2
-![screenshot]()
+084 凱亞多勒 - 西南 馬車
+![screenshot](https://truth.bahamut.com.tw/s01/201909/19c837765195ba4fefb4faa2495b6226.JPG)
 
-084 凱亞多勒3
-![screenshot]()
+084 凱亞多勒 - 西部關口
+![screenshot](https://truth.bahamut.com.tw/s01/201909/c5487f6dea85e8b3ed4c2a4eff5ccd8d.JPG)
 
-084 凱亞多勒4
-![screenshot]()
+084 凱亞多勒 - 北門工業區 東側
+![screenshot](https://truth.bahamut.com.tw/s01/201909/96801bde984af9ef2de81f7dccad4801.JPG)
 
-084 凱亞多勒5
-![screenshot]()
+084 凱亞多勒 - 城外聯盟集會所外
+![screenshot](https://truth.bahamut.com.tw/s01/201909/2e5e25f382bca45beab958d2e4a5049e.JPG)
 
-084 凱亞多勒6
-![screenshot]()
+084 凱亞多勒 - 北部關口
+![screenshot](https://truth.bahamut.com.tw/s01/201909/aa6710ced689bdbea53838ace0c49c16.JPG)
 
-084 凱亞多勒7
-![screenshot]()
+084 凱亞多勒 - 東北 城門
+![screenshot](https://truth.bahamut.com.tw/s01/201909/4473cd3ec6e163a65a3a087ba5f88332.JPG)
 
 [返回目录](#目录)
 
