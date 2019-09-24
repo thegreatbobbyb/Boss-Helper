@@ -172,11 +172,15 @@ module.exports = function BossHelper(mod) {
 				}
 				break
 			case 'SMT_WORLDSPAWN_NOTIFY_SPAWN':
+// mod.log("[event.message]")
+// mod.log(event.message)
+// mod.log("[sysMsg]")
+// mod.log(sysMsg)
 				getBossMsg(sysMsg.tokens.npcName)
 				whichBoss(bossHunting, bossTemplate)
 				if (boss) {
 					if (mod.settings.messager) {
-						MSG.chat("已刷新" + MSG.BLU(" 流浪商人 ") + MSG.PIK(boss.name))
+						MSG.chat("已刷新" + MSG.BLU(" 商人 ") + MSG.PIK(boss.name))
 						console.log(new Date().toTimeString() + " 刷新 " + boss.name)
 					}
 				}
