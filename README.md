@@ -83,7 +83,19 @@ https://home.gamer.com.tw/creationDetail.php?sn=4507080
 
 ------
 
-* [神秘商人](#神秘商人)
+* [貝利卡 貝拉昆 直轄領地](#貝利卡直轄領地-貝拉昆)
+
+------
+
+* [爾雷曼西亞 阿爾魯瑪 直轄領地](#爾雷曼西亞直轄領地-阿爾魯瑪)
+
+------
+
+* [凱亞多勒 凱依德拉 直轄領地](#凱亞多勒直轄領地-凱依德拉)
+
+------
+
+* [神秘商人 貝利卡/爾雷曼西亞/凱亞多勒/伊露卡](#神秘商人)
 
 ------
 
@@ -551,7 +563,7 @@ https://home.gamer.com.tw/creationDetail.php?sn=4507080
 182 巴拉卡尼亞丘陵地 - 知識之路 交叉口
 ![screenshot](https://truth.bahamut.com.tw/s01/201909/230ac01337f2256735541ed7c00a8cd0.JPG)
 
-183 伊露卡 - 伊露卡近郊 交叉口
+183 伊露卡近郊 - 伊露卡近郊 交叉口
 ![screenshot](https://truth.bahamut.com.tw/s01/201909/e9cf701caec3b1fcf01be17170d0b8eb.JPG)
 
 191 帝國之地 - 聯盟軍南部兵營營地
@@ -594,6 +606,102 @@ https://home.gamer.com.tw/creationDetail.php?sn=4507080
 
 013 黎明庭園 - 太古遺跡地 左側
 ![screenshot](https://truth.bahamut.com.tw/s01/201909/8e7c3b2a2255ad1dc6b7612aaeedb927.JPG)
+
+[返回目录](#目录)
+
+------
+
+# 貝利卡直轄領地-貝拉昆
+
+[返回目录](#目录)
+
+063 貝利卡近郊 - PK擂臺
+![screenshot](https://truth.bahamut.com.tw/s01/201909/5689d0d27d8e7f7952778be8e5bf5d18.JPG)
+
+063 貝利卡近郊 - 東部碼頭
+![screenshot](https://truth.bahamut.com.tw/s01/201909/76d18e0bd6cfd6b12a03c9960c227450.JPG)
+
+063 貝利卡近郊 - 安塔洛斯深淵入口
+![screenshot](https://truth.bahamut.com.tw/s01/201909/daebaa4c67667c55eb4fc54c0dede075.JPG)
+
+063 貝利卡近郊 - 天空方舟搭乘處
+![screenshot](https://truth.bahamut.com.tw/s01/201909/3bd31c3464406d238d049f8dfded07e6.JPG)
+
+063 貝利卡近郊 - 活動競技場 北
+![screenshot](https://truth.bahamut.com.tw/s01/201909/2f28d5fbcc5e1521db17a56f04f0b9bc.JPG)
+
+063 貝利卡近郊 - 活動競技場 南
+![screenshot](https://truth.bahamut.com.tw/s01/201909/66c764f85b318ef427c9f2b6f2ad59d0.JPG)
+
+063 貝利卡近郊 - 西側道路南方地標
+![screenshot](https://truth.bahamut.com.tw/s01/201909/b2523fb25026eb179f6781ad930b4ef4.JPG)
+
+063 貝利卡近郊 - 西門大橋
+![screenshot](https://truth.bahamut.com.tw/s01/201909/50d3dc80f9873d4318d6b12dc756ebc6.JPG)
+
+063 貝利卡近郊 - 馬場
+![screenshot](https://truth.bahamut.com.tw/s01/201909/0f57bdb117763d07701bdc39c674efbb.JPG)
+
+[返回目录](#目录)
+
+------
+
+# 爾雷曼西亞直轄領地-凱依德拉
+
+[返回目录](#目录)
+
+072 爾雷曼西亞1
+![screenshot]()
+
+072 爾雷曼西亞2
+![screenshot]()
+
+072 爾雷曼西亞3
+![screenshot]()
+
+072 爾雷曼西亞4
+![screenshot]()
+
+072 爾雷曼西亞5
+![screenshot]()
+
+072 爾雷曼西亞6
+![screenshot]()
+
+072 爾雷曼西亞7
+![screenshot]()
+
+072 爾雷曼西亞8
+![screenshot]()
+
+[返回目录](#目录)
+
+------
+
+# 凱亞多勒直轄領地-凱依德拉
+
+[返回目录](#目录)
+
+084 凱亞多勒1
+![screenshot]()
+
+084 凱亞多勒2
+![screenshot]()
+
+084 凱亞多勒3
+![screenshot]()
+
+084 凱亞多勒4
+![screenshot]()
+
+084 凱亞多勒5
+![screenshot]()
+
+084 凱亞多勒6
+![screenshot]()
+
+084 凱亞多勒7
+![screenshot]()
 
 [返回目录](#目录)
 

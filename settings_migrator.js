@@ -96,16 +96,16 @@ const DefaultSettings = {
         {huntingZoneId: 172,   templateId: 1271, name: "[巴拉卡尼亞領地]巴雷谷(原始之地)"},
         {huntingZoneId: 181,   templateId: 1271, name: "[巴拉卡尼亞領地]巴雷谷(古代巴拉卡遺跡)"},
         {huntingZoneId: 182,   templateId: 1271, name: "[巴拉卡尼亞領地]巴雷谷(巴拉卡尼亞丘陵地)"},
-        {huntingZoneId: 183,   templateId: 1278, name: "[巴拉卡尼亞領地]巴雷谷(伊露卡)"},
+        {huntingZoneId: 183,   templateId: 1278, name: "[巴拉卡尼亞領地]巴雷谷(伊露卡近郊)"},
         {huntingZoneId: 191,   templateId: 1271, name: "[巴拉卡尼亞領地]巴雷谷(帝國之地)"},
 
         // 特殊
         {huntingZoneId:  13,   templateId: 1271, name: "[巴其溫保護領地]巴勒圖(黎明庭園)"},
 
         // 直辖
-        {huntingZoneId:  63,   templateId: 1278, name: "[直辖领地]貝拉昆(貝利卡)"},
-        {huntingZoneId:  72,   templateId: 1278, name: "[直辖领地]阿爾魯瑪(爾雷曼西亞)"},
-        {huntingZoneId:  84,   templateId: 1278, name: "[直辖领地]凱依德拉(凱亞多勒)"},
+        {huntingZoneId:  63,   templateId: 1278, name: "[直辖领地]貝拉昆(貝利卡近郊)"},
+        {huntingZoneId:  72,   templateId: 1278, name: "[直辖领地]阿爾魯瑪(爾雷曼西亞近郊)"},
+        {huntingZoneId:  84,   templateId: 1278, name: "[直辖领地]凱依德拉(凱亞多勒近郊)"},
 
         // 神秘商店
         {huntingZoneId:  63,   templateId: 1271, name: "[神秘商店]彼得佩依(貝利卡)"},
