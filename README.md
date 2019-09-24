@@ -55,7 +55,7 @@ https://home.gamer.com.tw/creationDetail.php?sn=4507080
 
 [夏拉南部3 斯托蘭 威斯多尼亞領地](#威斯多尼亞領地-斯托蘭)
 
-[夏拉南部4]()
+[夏拉南部4 巴亞斯 比亞艾雷尼溫領地](#比亞艾雷尼溫領地-巴亞斯)
 
 [夏拉南部5]()
 
@@ -297,7 +297,31 @@ https://home.gamer.com.tw/creationDetail.php?sn=4507080
 
 ------
 
-夏拉南部_4 巴亞斯 - [比亞艾雷尼溫領地] 古龍峽谷 / 驅逐者溪谷 / 古代戰爭廢墟
+# 比亞艾雷尼溫領地-巴亞斯
+
+035 古龍峽谷 - 峽谷臨時營地
+![screenshot](https://truth.bahamut.com.tw/s01/201909/b59c0072eb3860d49aea5679ce887946.JPG)
+
+035 古龍峽谷 - 艾雷尼溫營地
+![screenshot](https://truth.bahamut.com.tw/s01/201909/ef74d04a7dd85f827581f96fdd0d9851.JPG)
+
+036 驅逐者溪谷 - 驅逐者監視營地
+![screenshot](https://truth.bahamut.com.tw/s01/201909/8b582b2e3aaacedfe4b6aa8ec9e3dce9.JPG)
+
+036 驅逐者溪谷 - 小丑監視2營地
+![screenshot](https://truth.bahamut.com.tw/s01/201909/96288c62bfe4033623107bec44a63dfa.JPG)
+
+036 驅逐者溪谷 - 新艾雷諾 中
+![screenshot](https://truth.bahamut.com.tw/s01/201909/0f74bb0947d1c12c772d332a1d03ee13.JPG)
+
+038 古代戰爭廢墟 - 原野調查營地
+![screenshot](https://truth.bahamut.com.tw/s01/201909/1a88b65d0690a30eb606e7109fd2fc55.JPG)
+
+038 古代戰爭廢墟 - 火之原野
+![screenshot](https://truth.bahamut.com.tw/s01/201909/7e168c20227f266d0301c10bcc2b7988.JPG)
+
+038 古代戰爭廢墟 - 古代都市營地
+![screenshot]()
 
 ------
 
