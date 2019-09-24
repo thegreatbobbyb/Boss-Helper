@@ -48,7 +48,7 @@ module.exports = function BossHelper(mod) {
 						if (info.DeSpawnTime != null && [5001, 501, 4001].includes(info.templateId)) {
 							if (Date.now() < (info.DeSpawnTime + 5*60*60*1000)) {
 								var NeSpawnTime = new Date(info.DeSpawnTime + 5*60*60*1000)
-								MSG.chat(MSG.RED(info.name) + " 下次刷新 " + MSG.TIP( NeSpawnTime.toLocaleString() ))
+								MSG.chat(MSG.RED(info.name) + " 预计刷新 " + MSG.TIP( NeSpawnTime.toLocaleString() ))
 							} else {
 								MSG.chat(MSG.RED(info.name) + " 上次记录 " + MSG.GRY( DeSpawnTime.toLocaleString() ))
 							}
@@ -152,7 +152,7 @@ module.exports = function BossHelper(mod) {
 				whichBoss(bossHunting, bossTemplate)
 				if (boss) {
 					var NeSpawnTime = new Date(Date.now() + 5*60*60*1000)
-					MSG.chat(MSG.RED(boss.name) + "下次刷新 " + MSG.TIP( NeSpawnTime.toLocaleString() ))
+					MSG.chat(MSG.RED(boss.name) + " 下次刷新 " + MSG.TIP( NeSpawnTime.toLocaleString() ))
 					saveTime()
 				}
 				break
