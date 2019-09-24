@@ -33,11 +33,11 @@ Boss-Helper 怪物提示
 
 ------
 
-以下截图内容来自 巴哈论坛 作者: 零玥寧
+# 以下截图内容来自 巴哈论坛 作者: 零玥寧
 
 https://home.gamer.com.tw/creationDetail.php?sn=4507080
 
-# 亚伦南部_1 阿勒坤
+# 亚伦南部_1 阿勒坤 [阿卡尼亞領地]
 
 002 西部砍伐區 - 森林守護者營地
 ![screenshot](https://truth.bahamut.com.tw/s01/201909/48312e1572f4e193b81afab1ff298b46.JPG)
@@ -74,7 +74,31 @@ https://home.gamer.com.tw/creationDetail.php?sn=4507080
 
 ------
 
-亚伦南部_2 依托羅 - [東部領地] 爆炎山脈 / 貪婪溪谷 / 蛇之島 / 荒涼海岸 / 絕望之島
+# 亚伦南部_2 依托羅 - [東部領地]
+
+004爆炎山脈 - 巴哈勒神殿入口
+![screenshot](https://truth.bahamut.com.tw/s01/201909/d5d2defd494c93801f7247b278e7e611.JPG)
+
+004爆炎山脈 - 惡魔鎮壓基地
+![screenshot](https://truth.bahamut.com.tw/s01/201909/37c573ac3196b1065cfd17ed6e102878.JPG)
+
+009貪婪溪谷 - 迷宮封鎖營地
+![screenshot](https://truth.bahamut.com.tw/s01/201909/923014e23c525ec1488fb3c57052fa3d.JPG)
+
+010蛇之島 - 盤蛇酒店
+![screenshot](https://truth.bahamut.com.tw/s01/201909/09b12c461e5d0cc7ed9dc7bd28d61ce0.JPG)
+
+010蛇之島 - 蛇之島東部碼頭
+![screenshot](https://truth.bahamut.com.tw/s01/201909/1d0acd7964e7ead8e59b3202ce63d03c.JPG)
+
+011荒涼海岸 - 荒涼港口 中
+![screenshot](https://truth.bahamut.com.tw/s01/201909/eabc6b516161277fc4cd57d35e1b3a49.JPG)
+
+011荒涼海岸 - 荒涼港口 樹下
+![screenshot](https://truth.bahamut.com.tw/s01/201909/7c88953a0d2e8d68bcf965c512997e21.JPG)
+
+012絕望之島 - 討伐隊野營地
+![screenshot](https://truth.bahamut.com.tw/s01/201909/4897a3b2042c3a72b00162dcef4907c1.JPG)
 
 ------
 
@@ -98,27 +122,27 @@ https://home.gamer.com.tw/creationDetail.php?sn=4507080
 
 ------
 
-夏拉南部_4 巴亞斯 - 古龍峽谷 / 驅逐者溪谷 / 古代戰爭廢墟
+夏拉南部_4 巴亞斯 - [比亞艾雷尼溫領地] 古龍峽谷 / 驅逐者溪谷 / 古代戰爭廢墟
 
 ------
 
-夏拉南部_5 潘奈巴 - 隔離區 / 野蠻溪谷
+夏拉南部_5 潘奈巴 - [潘諾尼亞領地] 隔離區 / 野蠻溪谷
 
 ------
 
-夏拉北部_1 洛堤卡 - 青空溪谷 / 堤勒凱伊森林
+夏拉北部_1 洛堤卡 - [洛斯堤里奇亞領] 青空溪谷 / 堤勒凱伊森林
 
 ------
 
-夏拉北部_2 海勒昆 - 卡諾比亞前線
+夏拉北部_2 海勒昆 - [黑坎特別地區] 卡諾比亞前線
 
 ------
 
-夏拉北部_3 洛卡農 - 卡勒古內雅 / 阿勒古內雅
+夏拉北部_3 洛卡農 - [洛斯卡伊阿納領地] 卡勒古內雅 / 阿勒古內雅
 
 ------
 
-夏拉北部_4 洛亞昆 阿爾卡笛亞峽谷 / 遺忘者雪原
+夏拉北部_4 洛亞昆 - [洛斯阿爾卡笛亞領地] 阿爾卡笛亞峽谷 / 遺忘者雪原
 
 ------
 
