@@ -455,9 +455,32 @@ https://home.gamer.com.tw/creationDetail.php?sn=4507080
 
 [返回目录](#目录)
 
-051 阿爾卡笛亞峽谷
+051 阿爾卡笛亞峽谷 - 酷寒峽谷營地
+![screenshot](https://truth.bahamut.com.tw/s01/201909/7c03e2dfe051b74bcf7b1f5b16dcf57b.JPG)
 
-052 遺忘者雪原
+051 阿爾卡笛亞峽谷 - 寒冰巨人洞窟 西側
+![screenshot](https://truth.bahamut.com.tw/s01/201909/e3eb1d16f3df96bc6962e611e1cbd087.JPG)
+
+051 阿爾卡笛亞峽谷 - 凱爾賽克巢穴入口
+![screenshot](https://truth.bahamut.com.tw/s01/201909/3059535f9fe947eb751336f68b43985f.JPG)
+
+052 遺忘者雪原 - 希望村莊
+![screenshot](https://truth.bahamut.com.tw/s01/201909/64b9314ff61e3f02d94cd9bbba580d26.JPG)
+
+052 遺忘者雪原 - 孤立的獵人營地
+![screenshot](https://truth.bahamut.com.tw/s01/201909/93d31ab80e856f0a146dc6860eab51b0.JPG)
+
+052 遺忘者雪原 - 迷宮監視營地
+![screenshot](https://truth.bahamut.com.tw/s01/201909/bd90331641c6dfeae071e4a243a61ec5.JPG)
+
+052 遺忘者雪原 - 黑暗橋樑營地
+![screenshot](https://truth.bahamut.com.tw/s01/201909/d54b62902e46eb91c5a3b3593b580f8a.JPG)
+
+052 遺忘者雪原 - 高爐入場營地
+![screenshot](https://truth.bahamut.com.tw/s01/201909/40f894feb7f2267d07cf227f5a4b205d.JPG)
+
+052 遺忘者雪原 - 眾神高爐通道 最下層
+![screenshot](https://truth.bahamut.com.tw/s01/201909/30080f6011d61e5d0f4dd9ca83687f0d.JPG)
 
 [返回目录](#目录)
 
