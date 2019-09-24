@@ -79,6 +79,14 @@ https://home.gamer.com.tw/creationDetail.php?sn=4507080
 
 ------
 
+* [黎明庭園 巴勒圖 巴其溫保護領地](#巴其溫保護領地-巴勒圖)
+
+------
+
+* [神秘商人](#神秘商人)
+
+------
+
 # 阿卡尼亞領地-阿勒坤
 
 [返回目录](#目录)
@@ -584,7 +592,7 @@ https://home.gamer.com.tw/creationDetail.php?sn=4507080
 013 黎明庭園 - 太古遺跡地 中央
 ![screenshot](https://truth.bahamut.com.tw/s01/201909/ba0bc2a21af5d1635fc579426bac7db3.JPG)
 
-013 黎明庭園 - 亞倫丘陵 碑石
+013 黎明庭園 - 太古遺跡地 左側
 ![screenshot](https://truth.bahamut.com.tw/s01/201909/8e7c3b2a2255ad1dc6b7612aaeedb927.JPG)
 
 [返回目录](#目录)
