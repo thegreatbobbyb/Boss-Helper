@@ -85,11 +85,7 @@ https://home.gamer.com.tw/creationDetail.php?sn=4507080
 
 * [貝利卡 貝拉昆 直轄領地](#貝利卡直轄領地-貝拉昆)
 
-------
-
 * [爾雷曼西亞 阿爾魯瑪 直轄領地](#爾雷曼西亞直轄領地-阿爾魯瑪)
-
-------
 
 * [凱亞多勒 凱依德拉 直轄領地](#凱亞多勒直轄領地-凱依德拉)
 
@@ -615,14 +611,14 @@ https://home.gamer.com.tw/creationDetail.php?sn=4507080
 
 [返回目录](#目录)
 
+063 貝利卡近郊 - 安塔洛斯深淵入口
+![screenshot](https://truth.bahamut.com.tw/s01/201909/daebaa4c67667c55eb4fc54c0dede075.JPG)
+
 063 貝利卡近郊 - PK擂臺
 ![screenshot](https://truth.bahamut.com.tw/s01/201909/5689d0d27d8e7f7952778be8e5bf5d18.JPG)
 
 063 貝利卡近郊 - 東部碼頭
 ![screenshot](https://truth.bahamut.com.tw/s01/201909/76d18e0bd6cfd6b12a03c9960c227450.JPG)
-
-063 貝利卡近郊 - 安塔洛斯深淵入口
-![screenshot](https://truth.bahamut.com.tw/s01/201909/daebaa4c67667c55eb4fc54c0dede075.JPG)
 
 063 貝利卡近郊 - 天空方舟搭乘處
 ![screenshot](https://truth.bahamut.com.tw/s01/201909/3bd31c3464406d238d049f8dfded07e6.JPG)
@@ -650,29 +646,29 @@ https://home.gamer.com.tw/creationDetail.php?sn=4507080
 
 [返回目录](#目录)
 
-072 爾雷曼西亞1
-![screenshot]()
+072 爾雷曼西亞近郊 - 岱魔魯斯的輪盤入口
+![screenshot](https://truth.bahamut.com.tw/s01/201909/6bfbd3d5f311f6bb69d12c9b61b9cf26.JPG)
 
-072 爾雷曼西亞2
-![screenshot]()
+072 爾雷曼西亞近郊 - 東部 城門
+![screenshot](https://truth.bahamut.com.tw/s01/201909/313f699b0661c5ebe8601fa28452aa86.JPG)
 
-072 爾雷曼西亞3
-![screenshot]()
+072 爾雷曼西亞近郊 - 城外聯盟集會所外
+![screenshot](https://truth.bahamut.com.tw/s01/201909/3f0d2d47c34d90f189cbd510924501cc.JPG)
 
-072 爾雷曼西亞4
-![screenshot]()
+072 爾雷曼西亞近郊 - 東北 橋下
+![screenshot](https://truth.bahamut.com.tw/s01/201909/871fadab81c731cb0672a9aeb8fb3369.JPG)
 
-072 爾雷曼西亞5
-![screenshot]()
+072 爾雷曼西亞近郊 - 西北 橋出入口
+![screenshot](https://truth.bahamut.com.tw/s01/201909/e64461be755ee2254672489e30a42c48.JPG)
 
-072 爾雷曼西亞6
-![screenshot]()
+072 爾雷曼西亞西部 - 西部 橋柱
+![screenshot](https://truth.bahamut.com.tw/s01/201909/895319765cab215b89a8201987160f77.JPG)
 
-072 爾雷曼西亞7
-![screenshot]()
+072 爾雷曼西亞 - 西部 洞窟
+![screenshot](https://truth.bahamut.com.tw/s01/201909/00a22046275174ab2371dd2194b77475.JPG)
 
-072 爾雷曼西亞8
-![screenshot]()
+072 爾雷曼西亞 - 西部 石門
+![screenshot](https://truth.bahamut.com.tw/s01/201909/37eb9bcd30d1351c2bcd0d8b8753c0c8.JPG)
 
 [返回目录](#目录)
 
