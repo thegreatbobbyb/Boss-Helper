@@ -642,7 +642,7 @@ https://home.gamer.com.tw/creationDetail.php?sn=4507080
 
 ------
 
-# 爾雷曼西亞直轄領地-凱依德拉
+# 爾雷曼西亞直轄領地-阿爾魯瑪
 
 [返回目录](#目录)
 
