@@ -57,7 +57,7 @@ https://home.gamer.com.tw/creationDetail.php?sn=4507080
 
 [夏拉南部4 巴亞斯 比亞艾雷尼溫領地](#比亞艾雷尼溫領地-巴亞斯)
 
-[夏拉南部5]()
+[夏拉南部5 潘奈巴 潘諾尼亞領地](#潘諾尼亞領地-潘奈巴)
 
 ------
 
@@ -299,6 +299,8 @@ https://home.gamer.com.tw/creationDetail.php?sn=4507080
 
 # 比亞艾雷尼溫領地-巴亞斯
 
+[返回目录](#目录)
+
 035 古龍峽谷 - 峽谷臨時營地
 ![screenshot](https://truth.bahamut.com.tw/s01/201909/b59c0072eb3860d49aea5679ce887946.JPG)
 
@@ -323,9 +325,30 @@ https://home.gamer.com.tw/creationDetail.php?sn=4507080
 038 古代戰爭廢墟 - 古代都市營地
 ![screenshot]()
 
+[返回目录](#目录)
+
 ------
 
-夏拉南部_5 潘奈巴 - [潘諾尼亞領地] 隔離區 / 野蠻溪谷
+# 潘諾尼亞領地-潘奈巴
+
+[返回目录](#目录)
+
+040 隔離區 - 奧坎支援基地
+![screenshot](https://truth.bahamut.com.tw/s01/201909/b9c655a0968910a3e9020a03ec0ce2ab.JPG)
+
+040 隔離區 - 隱居基地
+![screenshot](https://truth.bahamut.com.tw/s01/201909/3d09eb96264c2c49ffa9e8efcd8e6035.JPG)
+
+040 隔離區 - 革命軍總部入口
+![screenshot](https://truth.bahamut.com.tw/s01/201909/db0897043fdfbfa329895d12fa046355.JPG)
+
+041 野蠻溪谷 - 補給營地
+![screenshot](https://truth.bahamut.com.tw/s01/201909/ddaf10dbae06903aea863b41d1ee060c.JPG)
+
+041 隔離區 - 隔離村莊 右下
+![screenshot](https://truth.bahamut.com.tw/s01/201909/0badeebf1c334cf2dfb97691a425a6ff.JPG)
+
+[返回目录](#目录)
 
 ------
 
