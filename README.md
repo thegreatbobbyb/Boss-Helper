@@ -522,14 +522,34 @@ https://home.gamer.com.tw/creationDetail.php?sn=4507080
 
 [返回目录](#目录)
 
-172 原始之地
+172 原始之地 - 亞農族抵抗軍營地
+![screenshot](https://truth.bahamut.com.tw/s01/201909/b33563bb83787db72b597b78155bb4fd.JPG)
 
-181 古代巴拉卡遺跡
+172 原始之地 - 卡邁依群落地
+![screenshot](https://truth.bahamut.com.tw/s01/201909/3aaa4953d11947976310457e6af7e352.JPG)
 
-182 巴拉卡尼亞丘陵地
+172 原始之地 - 賽伊洛斯研究基地入口
+![screenshot](https://truth.bahamut.com.tw/s01/201909/737cbf5f0748a75baf0eb87849eb0de5.JPG)
 
-183 伊露卡
+181 古代巴拉卡遺跡 - 巴拉卡守備隊營地
+![screenshot](https://truth.bahamut.com.tw/s01/201909/f4246bb553af62c988c4884243b952c5.JPG)
 
-191 帝國之地
+181 古代巴拉卡遺跡 - 深淵之城 入口
+![screenshot](https://truth.bahamut.com.tw/s01/201909/8b742ff2068b0c5926190396ec5db093.JPG)
+
+182 巴拉卡尼亞丘陵地 - 巴拉卡尼亞商會
+![screenshot](https://truth.bahamut.com.tw/s01/201909/1c633b079a136c46f3370515a948f0e1.JPG)
+
+182 巴拉卡尼亞丘陵地 - 知識之路 交叉口
+![screenshot](https://truth.bahamut.com.tw/s01/201909/230ac01337f2256735541ed7c00a8cd0.JPG)
+
+183 伊露卡 - 伊露卡近郊 交叉口
+![screenshot](https://truth.bahamut.com.tw/s01/201909/e9cf701caec3b1fcf01be17170d0b8eb.JPG)
+
+191 帝國之地 - 聯盟軍南部兵營營地
+![screenshot](https://truth.bahamut.com.tw/s01/201909/20ea211d66fc469b64fc783600616deb.JPG)
+
+191 帝國之地 - 戴蒙克隆實驗室入口
+![screenshot](https://truth.bahamut.com.tw/s01/201909/fe2dce4c26701b9199ef3c432e23ccd9.JPG)
 
 [返回目录](#目录)
