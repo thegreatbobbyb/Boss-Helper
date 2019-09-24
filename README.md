@@ -124,28 +124,28 @@ https://home.gamer.com.tw/creationDetail.php?sn=4507080
 
 [返回目录](#目录)
 
-004爆炎山脈 - 巴哈勒神殿入口
+004 爆炎山脈 - 巴哈勒神殿入口
 ![screenshot](https://truth.bahamut.com.tw/s01/201909/d5d2defd494c93801f7247b278e7e611.JPG)
 
-004爆炎山脈 - 惡魔鎮壓基地
+004 爆炎山脈 - 惡魔鎮壓基地
 ![screenshot](https://truth.bahamut.com.tw/s01/201909/37c573ac3196b1065cfd17ed6e102878.JPG)
 
-009貪婪溪谷 - 迷宮封鎖營地
+009 貪婪溪谷 - 迷宮封鎖營地
 ![screenshot](https://truth.bahamut.com.tw/s01/201909/923014e23c525ec1488fb3c57052fa3d.JPG)
 
-010蛇之島 - 盤蛇酒店
+010 蛇之島 - 盤蛇酒店
 ![screenshot](https://truth.bahamut.com.tw/s01/201909/09b12c461e5d0cc7ed9dc7bd28d61ce0.JPG)
 
-010蛇之島 - 蛇之島東部碼頭
+010 蛇之島 - 蛇之島東部碼頭
 ![screenshot](https://truth.bahamut.com.tw/s01/201909/1d0acd7964e7ead8e59b3202ce63d03c.JPG)
 
-011荒涼海岸 - 荒涼港口 中
+011 荒涼海岸 - 荒涼港口 中
 ![screenshot](https://truth.bahamut.com.tw/s01/201909/eabc6b516161277fc4cd57d35e1b3a49.JPG)
 
-011荒涼海岸 - 荒涼港口 樹下
+011 荒涼海岸 - 荒涼港口 樹下
 ![screenshot](https://truth.bahamut.com.tw/s01/201909/7c88953a0d2e8d68bcf965c512997e21.JPG)
 
-012絕望之島 - 討伐隊野營地
+012 絕望之島 - 討伐隊野營地
 ![screenshot](https://truth.bahamut.com.tw/s01/201909/4897a3b2042c3a72b00162dcef4907c1.JPG)
 
 [返回目录](#目录)
@@ -401,27 +401,63 @@ https://home.gamer.com.tw/creationDetail.php?sn=4507080
 
 # 黑坎特別地區-海勒昆
 
-048 卡諾比亞前線
+[返回目录](#目录)
+
+048 卡諾比亞前線 - 聯盟軍指揮所
+![screenshot](https://truth.bahamut.com.tw/s01/201909/af6b08edd377c5977007040436e344e8.JPG)
+
+048 卡諾比亞前線 - 卡諾比亞營地
+![screenshot](https://truth.bahamut.com.tw/s01/201909/17bed1a3a372e25c3cba8c3cd645eb9f.JPG)
+
+048 卡諾比亞前線 - 兵器製作所
+![screenshot](https://truth.bahamut.com.tw/s01/201909/307454753ed636e36f36fefa2eab8e5f.JPG)
+
+048 卡諾比亞前線 - 最前線 補給車
+![screenshot](https://truth.bahamut.com.tw/s01/201909/43e7af901e30503f3a7b4b3b85e9ab98.JPG)
+
+048 卡諾比亞前線 - 防禦線 東側
+![screenshot](https://truth.bahamut.com.tw/s01/201909/bbd42a43cfbfd10ef6dbada5806cecd6.JPG)
+
+048 卡諾比亞前線 - 突擊隊營地
+![screenshot](https://truth.bahamut.com.tw/s01/201909/e8703af8f1f8cb2d87d9b95115136e9e.JPG)
+
+048 卡諾比亞前線 - 阿勒坤指揮所 右下
+![screenshot](https://truth.bahamut.com.tw/s01/201909/42a60c8d5b9916281b9fca28ff54153c.JPG)
+
+048 卡諾比亞前線 - 東側地窟通道
+![screenshot](https://truth.bahamut.com.tw/s01/201909/7843dac2110f761e5cc2c7dc5908b8a5.JPG)
+
+[返回目录](#目录)
 
 ------
 
 # 洛斯卡伊阿納領地-洛卡農
 
+[返回目录](#目录)
+
 050 阿勒古內雅
 
 049 卡勒古內雅
+
+[返回目录](#目录)
 
 ------
 
 # 洛斯阿爾卡笛亞領地-洛亞昆
 
+[返回目录](#目录)
+
 051 阿爾卡笛亞峽谷
 
 052 遺忘者雪原
 
+[返回目录](#目录)
+
 ------
 
 # 希巴尼亞領地-希爾貝塔
+
+[返回目录](#目录)
 
 054 妖精森林
 
@@ -431,9 +467,13 @@ https://home.gamer.com.tw/creationDetail.php?sn=4507080
 
 057 阿梅納夸特拉
 
+[返回目录](#目录)
+
 ------
 
 # 巴拉卡尼亞領地-巴雷谷
+
+[返回目录](#目录)
 
 172 原始之地
 
@@ -444,3 +484,5 @@ https://home.gamer.com.tw/creationDetail.php?sn=4507080
 183 伊露卡
 
 191 帝國之地
+
+[返回目录](#目录)
