@@ -101,23 +101,22 @@ const DefaultSettings = {
         {huntingZoneId:  72,   templateId: 1278, name: "[直辖领地]阿爾魯瑪(爾雷曼西亞近郊)"},
         {huntingZoneId:  84,   templateId: 1278, name: "[直辖领地]凱依德拉(凱亞多勒近郊)"},
 /* ==== 神秘商店 ======================================================================================== */
-        {huntingZoneId:  63,   templateId: 1271, name: "[神秘商店]1271 彼得佩依(貝利卡)"},
-        {huntingZoneId:  63,   templateId: 1273, name: "[神秘商店]1273 彼得佩依(貝利卡)"},
-        {huntingZoneId:  63,   templateId: 1279, name: "[神秘商店]1279 彼得佩依(貝利卡)"},
-        {huntingZoneId:  63,   templateId: 1281, name: "[神秘商店]1281 彼得佩依(貝利卡)"},
-        {huntingZoneId:  72,   templateId: 1271, name: "[神秘商店]1271 修墨斯克(爾雷曼西亞)"},
-        {huntingZoneId:  72,   templateId: 1273, name: "[神秘商店]1273 修墨斯克(爾雷曼西亞)"},
-        {huntingZoneId:  84,   templateId: 1271, name: "[神秘商店]1271 凱爾門拉依特(凱亞多勒)"},
-        {huntingZoneId:  84,   templateId: 1273, name: "[神秘商店]1273 凱爾門拉依特(凱亞多勒)"},
+        {huntingZoneId:  63,   templateId: 1271, name: "[神秘商店]1271 彼得佩依(貝利卡)", DeSpawnTime: null},
+        {huntingZoneId:  63,   templateId: 1273, name: "[神秘商店]1273 彼得佩依(貝利卡)", DeSpawnTime: null},
+        {huntingZoneId:  63,   templateId: 1279, name: "[神秘商店]1279 彼得佩依(貝利卡)", DeSpawnTime: null},
+        {huntingZoneId:  63,   templateId: 1281, name: "[神秘商店]1281 彼得佩依(貝利卡)", DeSpawnTime: null},
+        {huntingZoneId:  72,   templateId: 1271, name: "[神秘商店]1271 修墨斯克(爾雷曼西亞)", DeSpawnTime: null},
+        {huntingZoneId:  72,   templateId: 1273, name: "[神秘商店]1273 修墨斯克(爾雷曼西亞)", DeSpawnTime: null},
+        {huntingZoneId:  84,   templateId: 1271, name: "[神秘商店]1271 凱爾門拉依特(凱亞多勒)", DeSpawnTime: null},
+        {huntingZoneId:  84,   templateId: 1273, name: "[神秘商店]1273 凱爾門拉依特(凱亞多勒)", DeSpawnTime: null},
+        {huntingZoneId: 183,   templateId: 1271, name: "[神秘商店]1271 約翰度(伊露卡)", DeSpawnTime: null},
+        {huntingZoneId: 183,   templateId: 1273, name: "[神秘商店]1273 約翰度(伊露卡)", DeSpawnTime: null},
 
-        {huntingZoneId: 183,   templateId: 1271, name: "[神秘商店]1271 約翰度(伊露卡)"},
-        {huntingZoneId: 183,   templateId: 1273, name: "[神秘商店]1273 約翰度(伊露卡)"},
-
-        {huntingZoneId:  63,   templateId: 1276, name: "1276 負責交付哥布林(貝利卡)"},
-        {huntingZoneId:  63,   templateId: 1284, name: "1284 負責交付哥布林(貝利卡)"},
-        {huntingZoneId:  72,   templateId: 1276, name: "1276 負責交付哥布林(爾雷曼西亞)"},
-        {huntingZoneId:  84,   templateId: 1276, name: "1276 負責交付哥布林(凱亞多勒)"},
-        {huntingZoneId: 183,   templateId: 1276, name: "1276 負責交付哥布林(伊露卡)"}
+        {huntingZoneId:  63,   templateId: 1276, name: "負責交付哥布林(貝利卡)"},
+        {huntingZoneId:  63,   templateId: 1284, name: "負責交付哥布林(貝利卡)"},
+        {huntingZoneId:  72,   templateId: 1276, name: "負責交付哥布林(爾雷曼西亞)"},
+        {huntingZoneId:  84,   templateId: 1276, name: "負責交付哥布林(凱亞多勒)"},
+        {huntingZoneId: 183,   templateId: 1276, name: "負責交付哥布林(伊露卡)"}
     ]
 };
 

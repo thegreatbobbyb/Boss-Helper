@@ -46,11 +46,23 @@ module.exports = function BossHelper(mod) {
 				case "查询":
 					for (const info of mod.settings.bosses) {
 						if (info.DeSpawnTime != null && [5001, 501, 4001].includes(info.templateId)) {
-							if (Date.now() < (info.DeSpawnTime + 5*60*60*1000)) {
-								var NeSpawnTime = new Date(info.DeSpawnTime + 5*60*60*1000)
-								MSG.chat(MSG.RED(info.name) + " 预计刷新 " + MSG.TIP( NeSpawnTime.toLocaleString() ))
+							var NeSpawnTime = new Date(info.DeSpawnTime + 5*60*60*1000)
+							if (Date.now() < NeSpawnTime) {
+								MSG.chat(MSG.TIP( NeSpawnTime.toLocaleString() ) + " 预计刷新 " + MSG.RED(info.name))
 							} else {
-								MSG.chat(MSG.RED(info.name) + " 上次记录 " + MSG.GRY( DeSpawnTime.toLocaleString() ))
+								MSG.chat(MSG.GRY( new Date(info.DeSpawnTime).toLocaleString() ) + " 上次记录 " + MSG.RED(info.name))
+							}
+						}
+					}
+					break
+				case "神秘":
+					for (const info of mod.settings.bosses) {
+						if (info.DeSpawnTime != null && [1271, 1273, 1279, 1281].includes(info.templateId) && [63, 72, 84, 183].includes(info.huntingZoneId)) {
+							var NeSpawnTime = new Date(info.DeSpawnTime + 24*60*60*1000)
+							if (Date.now() < NeSpawnTime) {
+								MSG.chat(MSG.TIP( NeSpawnTime.toLocaleString() ) + " 预计刷新 " + MSG.RED(info.name))
+							} else {
+								MSG.chat(MSG.GRY( new Date(info.DeSpawnTime).toLocaleString() ) + " 上次记录 " + MSG.RED(info.name))
 							}
 						}
 					}
