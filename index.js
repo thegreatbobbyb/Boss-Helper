@@ -45,13 +45,12 @@ module.exports = function BossHelper(mod) {
 					break
 				case "查询":
 					for (const info of mod.settings.bosses) {
-						if (info.killedTime != null) {
-							var nextTime = new Date(info.killedTime + 5*60*60*1000)
-							
-							if (Date.now() > (info.killedTime + 5*60*60*1000)) {
-								MSG.chat(MSG.RED(info.name) + " 上次记录 " + MSG.GRY( nextTime.toLocaleString() ))
+						if (info.DeSpawnTime != null && [5001, 501, 4001].includes(info.templateId)) {
+							if (Date.now() < (info.DeSpawnTime + 5*60*60*1000)) {
+								var NeSpawnTime = new Date(info.DeSpawnTime + 5*60*60*1000)
+								MSG.chat(MSG.RED(info.name) + " 下次刷新 " + MSG.TIP( NeSpawnTime.toLocaleString() ))
 							} else {
-								MSG.chat(MSG.RED(info.name) + " 下次刷新 " + MSG.TIP( nextTime.toLocaleString() ))
+								MSG.chat(MSG.RED(info.name) + " 上次记录 " + MSG.GRY( DeSpawnTime.toLocaleString() ))
 							}
 						}
 					}
@@ -135,7 +134,7 @@ module.exports = function BossHelper(mod) {
 	})
 	
 	mod.hook('S_SYSTEM_MESSAGE', 1, (event) => {
-		if (!mod.settings.enabled) return
+		if (!mod.settings.enabled || !mod.settings.messager) return
 		
 		sysMsg = mod.parseSystemMessage(event.message)
 		switch (sysMsg.id) {
@@ -143,10 +142,8 @@ module.exports = function BossHelper(mod) {
 				getBossMsg(sysMsg.tokens.npcName)
 				whichBoss(bossHunting, bossTemplate)
 				if (boss) {
-					if (mod.settings.messager) {
-						MSG.chat("已刷新" + MSG.BLU(" 世界BOSS ") + MSG.RED(boss.name))
-						console.log(new Date().toTimeString() + " 刷新 " + boss.name)
-					}
+					MSG.chat("已刷新" + MSG.BLU(" 世界BOSS ") + MSG.RED(boss.name))
+					console.log(new Date().toTimeString() + " 刷新 " + boss.name)
 				}
 				break
 			case 'SMT_FIELDBOSS_DIE_GUILD':
@@ -154,34 +151,27 @@ module.exports = function BossHelper(mod) {
 				getBossMsg(sysMsg.tokens.npcname)
 				whichBoss(bossHunting, bossTemplate)
 				if (boss) {
-					if (mod.settings.messager) {
-						MSG.chat(MSG.YEL(sysMsg.tokens.userName) + " 成功击杀 " + MSG.RED(boss.name))
-						
-						var nextTime = new Date(Date.now() + 5*60*60*1000)
-						MSG.chat("下次刷新 " + MSG.TIP( nextTime.toLocaleString() ))
-						
-						console.log(new Date().toTimeString() + " 击杀 " + boss.name + " 下次 " + nextTime.toLocaleString())
-					}
-					
-					for (let i=0; i < mod.settings.bosses.length; i++) {
-						if (mod.settings.bosses[i].huntingZoneId == bossHunting && mod.settings.bosses[i].templateId == bossTemplate) {
-							mod.settings.bosses[i].killedTime = Date.now()
-							mod.settings.bosses[i].nextTime = nextTime.toLocaleString()
-						}
-					}
+					var NeSpawnTime = new Date(Date.now() + 5*60*60*1000)
+					MSG.chat(MSG.RED(boss.name) + "下次刷新 " + MSG.TIP( NeSpawnTime.toLocaleString() ))
+					saveTime()
 				}
 				break
+			
 			case 'SMT_WORLDSPAWN_NOTIFY_SPAWN':
 				getBossMsg(sysMsg.tokens.npcName)
 				whichBoss(bossHunting, bossTemplate)
 				if (boss) {
-					if (mod.settings.messager) {
-						MSG.chat("已刷新" + MSG.BLU(" 商人 ") + MSG.PIK(boss.name))
-						console.log(new Date().toTimeString() + " 刷新 " + boss.name)
-					}
+					MSG.chat(MSG.BLU("已刷新商人 ") + MSG.PIK(boss.name))
+					console.log(new Date().toTimeString() + " 刷新 " + boss.name)
 				}
 				break
 			case 'SMT_WORLDSPAWN_NOTIFY_DESPAWN':
+				getBossMsg(sysMsg.tokens.npcName)
+				whichBoss(bossHunting, bossTemplate)
+				if (boss) {
+					MSG.chat(MSG.PIK(boss.name) + MSG.YEL(" 商人已离开"))
+					saveTime()
+				}
 				break
 			default :
 				break
@@ -199,6 +189,14 @@ module.exports = function BossHelper(mod) {
 			boss = mod.settings.bosses.find(b => b.huntingZoneId == h_ID && b.templateId == t_ID)
 		} else {
 			boss = null
+		}
+	}
+	
+	function saveTime() {
+		for (let i=0; i < mod.settings.bosses.length; i++) {
+			if (mod.settings.bosses[i].huntingZoneId == bossHunting && mod.settings.bosses[i].templateId == bossTemplate) {
+				mod.settings.bosses[i].DeSpawnTime = Date.now()
+			}
 		}
 	}
 	

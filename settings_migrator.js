@@ -29,9 +29,9 @@ const DefaultSettings = {
 
         {huntingZoneId: 183,  templateId: 6002, name: "(活動)空投"},
 
-        {huntingZoneId: 26,   templateId: 5001, name: "奧勒曇(生命溪谷)", killedTime: null, nextTime: null},
-        {huntingZoneId: 39,   templateId: 501,  name: "哈迦叻(拓荒村莊)", killedTime: null, nextTime: null},
-        {huntingZoneId: 51,   templateId: 4001, name: "蓋洛司(希望村莊)", killedTime: null, nextTime: null},
+        {huntingZoneId: 26,   templateId: 5001, name: "奧勒曇(生命溪谷)", DeSpawnTime: null},
+        {huntingZoneId: 39,   templateId: 501,  name: "哈迦叻(拓荒村莊)", DeSpawnTime: null},
+        {huntingZoneId: 51,   templateId: 4001, name: "蓋洛司(希望村莊)", DeSpawnTime: null},
 /* ==== 亚伦南部 ======================================================================================== */
         {huntingZoneId:   2,   templateId: 1271, name: "[阿卡尼亞領地]阿勒坤(西部砍伐區)"},
         {huntingZoneId:   3,   templateId: 1271, name: "[阿卡尼亞領地]阿勒坤(遺忘森林)"},

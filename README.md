@@ -707,4 +707,16 @@ https://home.gamer.com.tw/creationDetail.php?sn=4507080
 
 [返回目录](#目录)
 
+彼得佩依(貝利卡)
+![screenshot](https://github.com/zc149352394/Boss-Helper/blob/master/screenshot/01.png)
+
+修墨斯克(爾雷曼西亞)
+![screenshot](https://github.com/zc149352394/Boss-Helper/blob/master/screenshot/02.png)
+
+凱爾門拉依特(凱亞多勒)
+![screenshot](https://github.com/zc149352394/Boss-Helper/blob/master/screenshot/03.png)
+
+約翰度(伊露卡)
+![screenshot](https://github.com/zc149352394/Boss-Helper/blob/master/screenshot/04.png)
+
 [返回目录](#目录)
