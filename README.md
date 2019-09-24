@@ -41,17 +41,27 @@ https://home.gamer.com.tw/creationDetail.php?sn=4507080
 
 # 目录
 
-[亚伦南部1 阿勒坤 阿卡尼亞領地](#阿勒坤-阿卡尼亞領地)
+[亚伦南部1 阿勒坤 阿卡尼亞領地](#阿卡尼亞領地-阿勒坤)
 
-[亚伦南部2 依托羅 東部領地](#依托羅-東部領地)
+[亚伦南部2 依托羅 東部領地](#東部領地-依托羅)
 
-[亚伦南部3 波雷塔 波波利亞領地](#波雷塔-波波利亞領地)
+[亚伦南部3 波雷塔 波波利亞領地](#波波利亞領地-波雷塔)
 
-[亚伦南部4 菲亞圖 比亞阿鳥雷溫領地](#菲亞圖-比亞阿鳥雷溫領地)
+[亚伦南部4 菲亞圖 比亞阿鳥雷溫領地](#比亞阿鳥雷溫領地-菲亞圖)
+
+[夏拉南部_1 艾沙特 艾赛尼亚领地](#艾赛尼亚领地-艾沙特)
+
+[夏拉南部_2]()
+
+[夏拉南部_3]()
+
+[夏拉南部_4]()
+
+[夏拉南部_5]()
 
 ------
 
-# 阿勒坤 阿卡尼亞領地
+# 阿卡尼亞領地-阿勒坤
 
 [返回目录](#目录)
 
@@ -92,7 +102,7 @@ https://home.gamer.com.tw/creationDetail.php?sn=4507080
 
 ------
 
-# 依托羅 東部領地
+# 東部領地-依托羅
 
 [返回目录](#目录)
 
@@ -120,9 +130,11 @@ https://home.gamer.com.tw/creationDetail.php?sn=4507080
 012絕望之島 - 討伐隊野營地
 ![screenshot](https://truth.bahamut.com.tw/s01/201909/4897a3b2042c3a72b00162dcef4907c1.JPG)
 
+[返回目录](#目录)
+
 ------
 
-# 波雷塔 波波利亞領地
+# 波波利亞領地-波雷塔
 
 [返回目录](#目录)
 
@@ -154,7 +166,7 @@ https://home.gamer.com.tw/creationDetail.php?sn=4507080
 
 ------
 
-# 菲亞圖 比亞阿鳥雷溫領地
+# 比亞阿鳥雷溫領地-菲亞圖
 
 [返回目录](#目录)
 
@@ -186,7 +198,32 @@ https://home.gamer.com.tw/creationDetail.php?sn=4507080
 
 ------
 
-夏拉南部_1 艾沙特 - [艾赛尼亚领地] 生命溪谷 / 艾賽尼亞丘陵地 / 汙染森林 / 古代森林
+# 艾賽尼亞領地-艾沙特
+
+[返回目录](#目录)
+
+026 生命溪谷 - 森林守護者警戒哨所
+![screenshot](https://truth.bahamut.com.tw/s01/201909/be3b0f7f50290743a522ef48b4988373.JPG)
+
+026 生命溪谷 - 生命之泉
+![screenshot](https://truth.bahamut.com.tw/s01/201909/e66ee18903625b0860f35f4b91cfab41.JPG)
+
+026 生命溪谷 - 特羅立恩 移動
+![screenshot](https://truth.bahamut.com.tw/s01/201909/be8f8ca7533b3061936e1b91c2e90c28.JPG)
+
+027 艾賽尼亞丘陵地 - 费尔奎娜巢穴入口
+![screenshot](https://truth.bahamut.com.tw/s01/201909/116ac64d52b15c1f69011a5d1540048b.JPG)
+
+028 汙染森林 - 汙染預防場
+![screenshot](https://truth.bahamut.com.tw/s01/201909/c8df49ec6cd3e69a5acf1d803fad75e7.JPG)
+
+029 古代森林 - 守備前進營地
+![screenshot](https://truth.bahamut.com.tw/s01/201909/518ab630b57c3484ed9d9f7cff14a83f.JPG)
+
+029 古代森林 - 卡舒帕露峽谷入口
+![screenshot](https://truth.bahamut.com.tw/s01/201909/9e302181ee76324922f3c8e74530402a.JPG)
+
+[返回目录](#目录)
 
 ------
 

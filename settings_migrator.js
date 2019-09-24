@@ -57,10 +57,10 @@ const DefaultSettings = {
         {huntingZoneId:  24,   templateId: 1271, name: "[比亞阿鳥雷溫領地]菲亞圖(黃金之路)"},
 
         // 夏拉南部
-        {huntingZoneId:  26,   templateId: 1271, name: "[艾赛尼亚领地]艾沙特(生命溪谷)"},
-        {huntingZoneId:  27,   templateId: 1271, name: "[艾赛尼亚领地]艾沙特(艾賽尼亞丘陵地)"}, // 艾賽尼亞丘陵地帶
-        {huntingZoneId:  28,   templateId: 1271, name: "[艾赛尼亚领地]艾沙特(汙染森林)"},
-        {huntingZoneId:  29,   templateId: 1271, name: "[艾赛尼亚领地]艾沙特(古代森林)"},
+        {huntingZoneId:  26,   templateId: 1271, name: "[艾賽尼亞領地]艾沙特(生命溪谷)"},
+        {huntingZoneId:  27,   templateId: 1271, name: "[艾賽尼亞領地]艾沙特(艾賽尼亞丘陵地)"}, // 艾賽尼亞丘陵地帶
+        {huntingZoneId:  28,   templateId: 1271, name: "[艾賽尼亞領地]艾沙特(汙染森林)"},
+        {huntingZoneId:  29,   templateId: 1271, name: "[艾賽尼亞領地]艾沙特(古代森林)"},
 
         {huntingZoneId:  30,   templateId: 1271, name: "[倍里達斯特別地區]貝勒沙(太陽庭院)"}, // 眾神戰場
 
