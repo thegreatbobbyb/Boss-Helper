@@ -102,7 +102,31 @@ https://home.gamer.com.tw/creationDetail.php?sn=4507080
 
 ------
 
-亚伦南部_3 波雷塔 - [波波利亞領地] 狂氣丘陵 / 凡貝爾丘陵 / 帕拉諾峽谷 / 月之湖
+# 亚伦南部_3 波雷塔 - [波波利亞領地]
+
+015 狂氣丘陵 - 鎮壓營地
+![screenshot](https://truth.bahamut.com.tw/s01/201909/8267edad60f400f588f7159f5c5b9cee.JPG)
+
+015 狂氣丘陵 - 北部監視哨所
+![screenshot](https://truth.bahamut.com.tw/s01/201909/2c4d64304769dab3b27c8c31396a0d46.JPG)
+
+016 凡貝爾丘陵 - 凡貝爾鎮壓營地
+![screenshot](https://truth.bahamut.com.tw/s01/201909/0c9f651758ac6cc8acd5684ac87bedc2.JPG)
+
+016 凡貝爾丘陵 - 波波利溫 倉庫
+![screenshot](https://truth.bahamut.com.tw/s01/201909/ad2cc0d98cd5bcd4f4280016e5cacea1.JPG)
+
+017 帕拉諾峽谷 - 補給營地
+![screenshot](https://truth.bahamut.com.tw/s01/201909/14774e43fd2f3e4b873c25501e823753.JPG)
+
+023 月之湖 - 地精防禦營地
+![screenshot](https://truth.bahamut.com.tw/s01/201909/293bfa7bb6be7db94b2e896c8cea5395.JPG)
+
+023 月之湖 - 幽禁地亡命者小屋
+![screenshot](https://truth.bahamut.com.tw/s01/201909/f397528490cde4f81252a52adcd3834c.JPG)
+
+023 月之湖 - 波拉艾利奴 雜貨
+![screenshot](https://truth.bahamut.com.tw/s01/201909/7fa83de8a923e294cce69424b67e9991.JPG)
 
 ------
 
