@@ -172,10 +172,6 @@ module.exports = function BossHelper(mod) {
 				}
 				break
 			case 'SMT_WORLDSPAWN_NOTIFY_SPAWN':
-// mod.log("[event.message]")
-// mod.log(event.message)
-// mod.log("[sysMsg]")
-// mod.log(sysMsg)
 				getBossMsg(sysMsg.tokens.npcName)
 				whichBoss(bossHunting, bossTemplate)
 				if (boss) {
@@ -207,7 +203,6 @@ module.exports = function BossHelper(mod) {
 	}
 	
 	function spawnItem(gameId, loc) {
-		loc.z = loc.z - 100
 		mod.send('S_SPAWN_DROPITEM', 8, {
 			gameId: gameId*100n,
 			loc: loc,
