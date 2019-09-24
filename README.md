@@ -43,9 +43,9 @@ https://home.gamer.com.tw/creationDetail.php?sn=4507080
 
 - [亚伦南部_1 阿勒坤](# 亚伦南部_1 阿勒坤 [阿卡尼亞領地][11P])
 
-- 亚伦南部_2 依托羅(# 亚伦南部_2 依托羅 - [東部領地][8P])
+- [亚伦南部_2 依托羅](# 亚伦南部_2 依托羅 [東部領地][8P])
 
-- 亚伦南部_3 波雷塔(# 亚伦南部_3 波雷塔 - [波波利亞領地][8P])
+- [亚伦南部_3 波雷塔](# 亚伦南部_3 波雷塔 [波波利亞領地][8P])
 
 ------
 
@@ -86,7 +86,7 @@ https://home.gamer.com.tw/creationDetail.php?sn=4507080
 
 ------
 
-# 亚伦南部_2 依托羅 - [東部領地][8P]
+# 亚伦南部_2 依托羅 [東部領地][8P]
 
 004爆炎山脈 - 巴哈勒神殿入口
 ![screenshot](https://truth.bahamut.com.tw/s01/201909/d5d2defd494c93801f7247b278e7e611.JPG)
@@ -114,7 +114,7 @@ https://home.gamer.com.tw/creationDetail.php?sn=4507080
 
 ------
 
-# 亚伦南部_3 波雷塔 - [波波利亞領地][8P]
+# 亚伦南部_3 波雷塔 [波波利亞領地][8P]
 
 015 狂氣丘陵 - 鎮壓營地
 ![screenshot](https://truth.bahamut.com.tw/s01/201909/8267edad60f400f588f7159f5c5b9cee.JPG)
