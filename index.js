@@ -44,26 +44,34 @@ module.exports = function BossHelper(mod) {
 					}
 					break
 				case "查询":
-					for (const info of mod.settings.bosses) {
-						if (info.DeSpawnTime != null && [5001, 501, 4001].includes(info.templateId)) {
-							var NeSpawnTime = new Date(info.DeSpawnTime + 5*60*60*1000)
-							if (Date.now() < NeSpawnTime) {
-								MSG.chat(MSG.TIP( NeSpawnTime.toLocaleString() ) + " 预计刷新 " + MSG.RED(info.name))
-							} else {
-								MSG.chat(MSG.GRY( new Date(info.DeSpawnTime).toLocaleString() ) + " 上次记录 " + MSG.RED(info.name))
-							}
+					MSG.chat("------------ 世界BOSS ------------")
+					for (const i of mod.settings.bosses) {
+						if (i.DeSpawnTime == undefined) continue
+						if (![5001, 501, 4001].includes(i.templateId)) continue
+						
+						var nextTime = i.DeSpawnTime + 5*60*60*1000
+						if (i.DeSpawnTime == 0) {
+							MSG.chat(MSG.RED(i.name) + MSG.YEL(" 暂无记录"))
+						} else if (Date.now() < nextTime) {
+							MSG.chat(MSG.RED(i.name) + " 预计期 " + MSG.TIP(getTime(nextTime)))
+						} else {
+							MSG.chat(MSG.RED(i.name) + " 已过期 " + MSG.GRY(getTime(nextTime)))
 						}
 					}
-					break
-				case "神秘":
-					for (const info of mod.settings.bosses) {
-						if (info.DeSpawnTime != null && [1271, 1273, 1279, 1281].includes(info.templateId) && [63, 72, 84, 183].includes(info.huntingZoneId)) {
-							var NeSpawnTime = new Date(info.DeSpawnTime + 24*60*60*1000)
-							if (Date.now() < NeSpawnTime) {
-								MSG.chat(MSG.TIP( NeSpawnTime.toLocaleString() ) + " 预计刷新 " + MSG.RED(info.name))
-							} else {
-								MSG.chat(MSG.GRY( new Date(info.DeSpawnTime).toLocaleString() ) + " 上次记录 " + MSG.RED(info.name))
-							}
+					// break
+				// case "神秘":
+					MSG.chat("------------ 神秘商人 ------------")
+					for (const j of mod.settings.bosses) {
+						if (j.DeSpawnTime == undefined) continue
+						if (![63, 72, 84, 183].includes(j.huntingZoneId)) continue
+						
+						var nextTime = j.DeSpawnTime + 18*60*60*1000
+						if (j.DeSpawnTime == 0) {
+							MSG.chat(MSG.YEL("暂无记录 ") + MSG.PIK(j.name))
+						} else if (Date.now() < nextTime) {
+							MSG.chat("预计刷新 " + MSG.TIP(getTime(nextTime)) + MSG.PIK(j.name))
+						} else {
+							MSG.chat("上次记录 " + MSG.GRY(getTime(j.DeSpawnTime)) + MSG.PIK(j.name))
 						}
 					}
 					break
@@ -100,20 +108,20 @@ module.exports = function BossHelper(mod) {
 		switch (event.templateId) {
 			case 5001: // Ortan
 				event.shapeId = 303730;
-				event.templateId = 7000;
 				event.huntingZoneId = 434;
+				event.templateId = 7000;
 				load(event);
 				return true;
 			case 501:  // Hazard
 				event.shapeId = 303740;
-				event.templateId = 77730;
 				event.huntingZoneId = 777;
+				event.templateId = 77730;
 				load(event);
 				return true;
 			case 4001: // Cerrus
 				event.shapeId = 303750;
-				event.templateId = 1000;
 				event.huntingZoneId = 994;
+				event.templateId = 1000;
 				load(event);
 				return true;
 		}
@@ -154,7 +162,7 @@ module.exports = function BossHelper(mod) {
 				getBossMsg(sysMsg.tokens.npcName)
 				whichBoss(bossHunting, bossTemplate)
 				if (boss) {
-					MSG.chat("已刷新" + MSG.BLU(" 世界BOSS ") + MSG.RED(boss.name))
+					MSG.chat(MSG.BLU("已刷新 ") + MSG.RED(boss.name))
 					console.log(new Date().toTimeString() + " 刷新 " + boss.name)
 				}
 				break
@@ -163,8 +171,8 @@ module.exports = function BossHelper(mod) {
 				getBossMsg(sysMsg.tokens.npcname)
 				whichBoss(bossHunting, bossTemplate)
 				if (boss) {
-					var NeSpawnTime = new Date(Date.now() + 5*60*60*1000)
-					MSG.chat(MSG.RED(boss.name) + " 下次刷新 " + MSG.TIP( NeSpawnTime.toLocaleString() ))
+					var nextTime = getTime(Date.now() + 5*60*60*1000)
+					MSG.chat(MSG.RED(boss.name) + " 下次刷新 " + MSG.TIP( nextTime.toLocaleString() ))
 					saveTime()
 				}
 				break
@@ -173,7 +181,11 @@ module.exports = function BossHelper(mod) {
 				getBossMsg(sysMsg.tokens.npcName)
 				whichBoss(bossHunting, bossTemplate)
 				if (boss) {
-					MSG.chat(MSG.BLU("已刷新商人 ") + MSG.PIK(boss.name))
+					if ([1276, 1284].includes(bossTemplate)) {
+						MSG.part("已刷新 " + boss.name)
+					} else {
+						MSG.chat(MSG.BLU("已刷新 ") + MSG.PIK(boss.name))
+					}
 					console.log(new Date().toTimeString() + " 刷新 " + boss.name)
 				}
 				break
@@ -181,7 +193,7 @@ module.exports = function BossHelper(mod) {
 				getBossMsg(sysMsg.tokens.npcName)
 				whichBoss(bossHunting, bossTemplate)
 				if (boss) {
-					MSG.chat(MSG.PIK(boss.name) + MSG.YEL(" 商人已离开"))
+					MSG.chat(MSG.PIK(boss.name) + MSG.YEL(" 已离开"))
 					saveTime()
 				}
 				break
@@ -206,10 +218,17 @@ module.exports = function BossHelper(mod) {
 	
 	function saveTime() {
 		for (let i=0; i < mod.settings.bosses.length; i++) {
-			if (mod.settings.bosses[i].huntingZoneId == bossHunting && mod.settings.bosses[i].templateId == bossTemplate) {
-				mod.settings.bosses[i].DeSpawnTime = Date.now()
-			}
+			if (mod.settings.bosses[i].DeSpawnTime == undefined) continue
+			if (mod.settings.bosses[i].huntingZoneId != bossHunting ) continue
+			if (mod.settings.bosses[i].templateId != bossTemplate) continue
+			
+			mod.settings.bosses[i].DeSpawnTime = Date.now()
 		}
+	}
+	
+	function getTime(thisTime) {
+		var Time = new Date(thisTime)
+		return Time.toLocaleString()
 	}
 	
 	function spawnItem(gameId, loc) {
