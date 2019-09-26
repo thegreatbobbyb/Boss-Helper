@@ -12,6 +12,7 @@
     "servers": ["https://raw.githubusercontent.com/tera-mod/Boss-Helper/master/"],
     "supportUrl": "https://github.com/tera-mod/Boss-Helper/issues",
     "dependencies": {
+        "notifier": "https://raw.githubusercontent.com/SerenTera/tera-notifier/master/module.json",
         "tera-message": "https://raw.githubusercontent.com/tera-mod/tera-message/master/module.json"
     },
     "version": "85.07"

@@ -1,4 +1,5 @@
 module.exports = function BossHelper(mod) {
+	const notifier = mod.require ? mod.require.notifier : require('tera-notifier')(mod)
 	const Message = require('../tera-message')
 	const MSG = new Message(mod)
 	
@@ -55,7 +56,7 @@ module.exports = function BossHelper(mod) {
 						} else if (Date.now() < nextTime) {
 							MSG.chat(MSG.RED(i.name) + " 预产期 " + MSG.TIP(getTime( nextTime)))
 						} else {
-							MSG.chat(MSG.RED(i.name) + " 已过期 " + MSG.GRY(getTime(j.logTime)))
+							MSG.chat(MSG.RED(i.name) + " 已过期 " + MSG.GRY(getTime(i.logTime)))
 						}
 					}
 					// break
@@ -163,6 +164,7 @@ module.exports = function BossHelper(mod) {
 				if (boss) {
 					MSG.chat(MSG.BLU("已刷新 ") + MSG.RED(boss.name))
 					console.log(new Date().toTimeString() + " 刷新 " + boss.name)
+					notificationafk("刷新 " + boss.name)
 				}
 				break
 			case 'SMT_FIELDBOSS_DIE_GUILD':
@@ -170,9 +172,9 @@ module.exports = function BossHelper(mod) {
 				getBossMsg(sysMsg.tokens.npcname)
 				whichBoss(bossHunting, bossTemplate)
 				if (boss) {
+					saveTime()
 					var nextTime = getTime(Date.now() + 5*60*60*1000)
 					MSG.chat(MSG.RED(boss.name) + " 下次刷新 " + MSG.TIP(nextTime))
-					saveTime()
 				}
 				break
 			
@@ -187,6 +189,7 @@ module.exports = function BossHelper(mod) {
 					}
 					saveTime()
 					console.log(new Date().toTimeString() + " 刷新 " + boss.name)
+					notificationafk("刷新 " + boss.name)
 				}
 				break
 			case 'SMT_WORLDSPAWN_NOTIFY_DESPAWN':
@@ -322,5 +325,14 @@ module.exports = function BossHelper(mod) {
 	
 	function hook() {
 		hooks.push(mod.hook(...arguments));
+	}
+	
+	function notificationafk(msg, timeout) { // timeout in milsec
+		notifier.notifyafk({
+			title: 'TERA AFK-Notification',
+			message: msg,
+			wait: false, 
+			sound: 'Notification.IM', 
+		}, timeout)
 	}
 }
