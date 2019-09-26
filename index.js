@@ -54,9 +54,9 @@ module.exports = function BossHelper(mod) {
 						if (i.logTime == 0) {
 							MSG.chat(MSG.RED(i.name) + MSG.YEL(" 暂无记录"))
 						} else if (Date.now() < nextTime) {
-							MSG.chat(MSG.RED(i.name) + " 预产期 " + MSG.TIP(getTime( nextTime)))
+							MSG.chat(MSG.RED(i.name) + " 预产期 " + MSG.TIP(getTime(nextTime)))
 						} else {
-							MSG.chat(MSG.RED(i.name) + " 已过期 " + MSG.GRY(getTime(i.logTime)))
+							MSG.chat(MSG.RED(i.name) + " 已过期 " + MSG.GRY(getTime(nextTime)))
 						}
 					}
 					// break
@@ -68,11 +68,11 @@ module.exports = function BossHelper(mod) {
 						
 						var nextTime = j.logTime + 24*60*60*1000
 						if (j.logTime == 0) {
-							MSG.chat(MSG.YEL("暂无记录 ") + MSG.PIK(j.name))
+							MSG.chat(MSG.PIK(j.name) + MSG.YEL(" 暂无记录"))
 						} else if (Date.now() < nextTime) {
-							MSG.chat(MSG.TIP(getTime( nextTime)) + " 预计刷新 " + MSG.PIK(j.name))
+							MSG.chat(MSG.PIK(j.name) + " 下次刷新 " + MSG.TIP(getTime(nextTime)))
 						} else {
-							MSG.chat(MSG.GRY(getTime(j.logTime)) + " 上次记录 " + MSG.PIK(j.name))
+							MSG.chat(MSG.PIK(j.name) + " 上次记录 " + MSG.GRY(getTime(nextTime)))
 						}
 					}
 					break
