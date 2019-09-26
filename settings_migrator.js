@@ -16,11 +16,11 @@ const DefaultSettings = {
         {huntingZoneId: 1023, templateId: 99999991, name: "(活動)偷蛋賊西奴斯"},
         {huntingZoneId: 1023, templateId: 99999992, name: "(活動)偷蛋賊西奴斯"},
         {huntingZoneId: 1023, templateId: 99999999, name: "(活動)偷蛋賊西奴斯"},
-        {huntingZoneId:  183, templateId: 6002, name: "(活動)空投"},
+        {huntingZoneId:  183, templateId:     6002, name: "(活動)空投"},
 
-        {huntingZoneId: 26, templateId: 5001, DeSpawnTime: 0, name: "奧勒曇(生命溪谷)"},
-        {huntingZoneId: 39, templateId:  501, DeSpawnTime: 0, name: "哈迦叻(拓荒村莊)"},
-        {huntingZoneId: 51, templateId: 4001, DeSpawnTime: 0, name: "蓋洛司(希望村莊)"},
+        {huntingZoneId: 26, templateId: 5001, logTime: 0, name: "奧勒曇(生命溪谷)"},
+        {huntingZoneId: 39, templateId:  501, logTime: 0, name: "哈迦叻(拓荒村莊)"},
+        {huntingZoneId: 51, templateId: 4001, logTime: 0, name: "蓋洛司(希望村莊)"},
 
 /* ==== 亚伦南部 ======================================================================================== */
         {huntingZoneId:   2, templateId: 1271, name: "[阿卡尼亞領地]阿勒坤(西部砍伐區)"},
@@ -80,22 +80,18 @@ const DefaultSettings = {
         {huntingZoneId:  72, templateId: 1278, name: "[直辖领地]阿爾魯瑪(爾雷曼西亞近郊)"},
         {huntingZoneId:  84, templateId: 1278, name: "[直辖领地]凱依德拉(凱亞多勒近郊)"},
 /* ==== 神秘商店 ======================================================================================== */
-        {huntingZoneId:  63, templateId: 1271, DeSpawnTime: 0, name: "71-神秘商店(貝利卡)"},
-        {huntingZoneId:  63, templateId: 1273, DeSpawnTime: 0, name: "73-神秘商店(貝利卡)"},
-        {huntingZoneId:  63, templateId: 1279, DeSpawnTime: 0, name: "79-神秘商店(貝利卡)"},
-        {huntingZoneId:  63, templateId: 1281, DeSpawnTime: 0, name: "81-神秘商店(貝利卡)"},
-        {huntingZoneId:  72, templateId: 1271, DeSpawnTime: 0, name: "71-神秘商店(爾雷曼西亞)"},
-        {huntingZoneId:  72, templateId: 1273, DeSpawnTime: 0, name: "73-神秘商店(爾雷曼西亞)"},
-        {huntingZoneId:  84, templateId: 1271, DeSpawnTime: 0, name: "71-神秘商店(凱亞多勒)"},
-        {huntingZoneId:  84, templateId: 1273, DeSpawnTime: 0, name: "73-神秘商店(凱亞多勒)"},
-        {huntingZoneId: 183, templateId: 1271, DeSpawnTime: 0, name: "71-神秘商店(伊露卡)"},
-        {huntingZoneId: 183, templateId: 1273, DeSpawnTime: 0, name: "73-神秘商店(伊露卡)"},
+        {huntingZoneId:  63, templateId: 1271, name: "神秘商店(貝利卡)"},
+        {huntingZoneId:  63, templateId: 1279, name: "79-神秘商店(貝利卡)"},
+        {huntingZoneId:  63, templateId: 1281, name: "81-神秘商店(貝利卡)"},
+        {huntingZoneId:  72, templateId: 1271, name: "神秘商店(爾雷曼西亞)"},
+        {huntingZoneId:  84, templateId: 1271, name: "神秘商店(凱亞多勒)"},
+        {huntingZoneId: 183, templateId: 1271, name: "神秘商店(伊露卡)"},
 /* ==== 交付哥布林 ====================================================================================== */
-        {huntingZoneId:  63, templateId: 1276, name: "交付哥布林(貝利卡)"},
-        {huntingZoneId:  63, templateId: 1284, name: "交付哥布林(貝利卡)"},
-        {huntingZoneId:  72, templateId: 1276, name: "交付哥布林(爾雷曼西亞)"},
-        {huntingZoneId:  84, templateId: 1276, name: "交付哥布林(凱亞多勒)"},
-        {huntingZoneId: 183, templateId: 1276, name: "交付哥布林(伊露卡)"}
+        {huntingZoneId:  63, templateId: 1276, logTime: 0, name: "交付哥布林(貝利卡)"},
+        {huntingZoneId:  63, templateId: 1284, logTime: 0, name: "交付哥布林(貝利卡)"},
+        {huntingZoneId:  72, templateId: 1276, logTime: 0, name: "交付哥布林(爾雷曼西亞)"},
+        {huntingZoneId:  84, templateId: 1276, logTime: 0, name: "交付哥布林(凱亞多勒)"},
+        {huntingZoneId: 183, templateId: 1276, logTime: 0, name: "交付哥布林(伊露卡)"}
     ]
 };
 
