@@ -25,11 +25,17 @@ Boss-Helper 怪物提示
 
 ------
 
-- 已增加 [field-boss_time] 三大世界王时间跟踪记录功能
+- 已增加 Owyn作者的 [field-boss_time](https://github.com/Owyn/field-boss_time) 模组功能, 三大世界王 刷新时间跟踪记录功能
 
-- 已增加 [bam-hp-bar] 血量显示功能
+- 已增加 Lambda11作者的 [bam-hp-bar](https://github.com/Lambda11/bam-hp-bar) 模组功能, 血量显示功能
 
-- 已增加 全地图领地[流浪商人]NPC
+- 已增加 全地图领地[流浪商人][神秘商店][交付哥布林]NPC
+
+- 已增加 四主城[交付哥布林]NPC 刷新时间跟踪记录功能
+![screenshot](https://github.com/tera-mod/Boss-Helper/blob/master/screenshot/05.png)
+
+- 已增加 Seren作者的 [tera-notifier](https://github.com/SerenTera/tera-notifier) 模组功能, 挂机也能收到[电脑系统]发出的消息提醒
+![screenshot](https://github.com/tera-mod/Boss-Helper/blob/master/screenshot/06.png)
 
 ------
 
