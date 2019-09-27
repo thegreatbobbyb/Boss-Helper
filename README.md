@@ -41,6 +41,22 @@ Boss-Helper 怪物提示
 
 ------
 
+# 神秘商人(交付哥布林)
+
+彼得佩依(貝利卡)
+![screenshot](https://github.com/tera-mod/Boss-Helper/blob/master/screenshot/01.png)
+
+修墨斯克(爾雷曼西亞)
+![screenshot](https://github.com/tera-mod/Boss-Helper/blob/master/screenshot/02.png)
+
+凱爾門拉依特(凱亞多勒)
+![screenshot](https://github.com/tera-mod/Boss-Helper/blob/master/screenshot/03.png)
+
+約翰度(伊露卡)
+![screenshot](https://github.com/tera-mod/Boss-Helper/blob/master/screenshot/04.png)
+
+------
+
 # 以下截图内容来自 巴哈论坛 作者: 零玥寧
 
 https://home.gamer.com.tw/creationDetail.php?sn=4507080
@@ -96,10 +112,6 @@ https://home.gamer.com.tw/creationDetail.php?sn=4507080
 * [爾雷曼西亞 阿爾魯瑪 直轄領地](#爾雷曼西亞直轄領地-阿爾魯瑪)
 
 * [凱亞多勒 凱依德拉 直轄領地](#凱亞多勒直轄領地-凱依德拉)
-
-------
-
-* [神秘商人 貝利卡/爾雷曼西亞/凱亞多勒/伊露卡](#神秘商人)
 
 ------
 
@@ -706,25 +718,5 @@ https://home.gamer.com.tw/creationDetail.php?sn=4507080
 
 084 凱亞多勒 - 東北 城門
 ![screenshot](https://truth.bahamut.com.tw/s01/201909/4473cd3ec6e163a65a3a087ba5f88332.JPG)
-
-[返回目录](#目录)
-
-------
-
-# 神秘商人
-
-[返回目录](#目录)
-
-彼得佩依(貝利卡)
-![screenshot](https://github.com/tera-mod/Boss-Helper/blob/master/screenshot/01.png)
-
-修墨斯克(爾雷曼西亞)
-![screenshot](https://github.com/tera-mod/Boss-Helper/blob/master/screenshot/02.png)
-
-凱爾門拉依特(凱亞多勒)
-![screenshot](https://github.com/tera-mod/Boss-Helper/blob/master/screenshot/03.png)
-
-約翰度(伊露卡)
-![screenshot](https://github.com/tera-mod/Boss-Helper/blob/master/screenshot/04.png)
 
 [返回目录](#目录)
