@@ -32,9 +32,11 @@ Boss-Helper 怪物提示
 - 已增加 全地图领地[流浪商人][神秘商店][交付哥布林]NPC
 
 - 已增加 四主城[交付哥布林]NPC 刷新时间跟踪记录功能
+
 ![screenshot](https://github.com/tera-mod/Boss-Helper/blob/master/screenshot/05.png)
 
 - 已增加 Seren作者的 [tera-notifier](https://github.com/SerenTera/tera-notifier) 模组功能, 挂机也能收到[电脑系统]发出的消息提醒
+
 ![screenshot](https://github.com/tera-mod/Boss-Helper/blob/master/screenshot/06.png)
 
 ------
