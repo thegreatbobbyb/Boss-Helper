@@ -54,9 +54,9 @@ module.exports = function BossHelper(mod) {
 						if (i.logTime == 0) {
 							MSG.chat(MSG.RED(i.name) + MSG.YEL(" 暂无记录"))
 						} else if (Date.now() < nextTime) {
-							MSG.chat(MSG.RED(i.name) + " 预产期 " + MSG.TIP(getTime(nextTime)))
+							MSG.chat(MSG.RED(i.name) + " 下次刷新 " + MSG.TIP(getTime(nextTime)))
 						} else {
-							MSG.chat(MSG.RED(i.name) + " 已过期 " + MSG.GRY(getTime(nextTime)))
+							MSG.chat(MSG.RED(i.name) + " 上次记录 " + MSG.GRY(getTime(nextTime)))
 						}
 					}
 					// break
@@ -163,7 +163,6 @@ module.exports = function BossHelper(mod) {
 				whichBoss(bossHunting, bossTemplate)
 				if (boss) {
 					MSG.chat(MSG.BLU("已刷新 ") + MSG.RED(boss.name))
-					console.log(new Date().toTimeString() + " 刷新 " + boss.name)
 					notificationafk("刷新 " + boss.name)
 				}
 				break
@@ -172,9 +171,9 @@ module.exports = function BossHelper(mod) {
 				getBossMsg(sysMsg.tokens.npcname)
 				whichBoss(bossHunting, bossTemplate)
 				if (boss) {
+					var nextTime = Date.now() + 5*60*60*1000
+					MSG.chat(MSG.RED(boss.name) + " 下次刷新 " + MSG.TIP(getTime(nextTime)))
 					saveTime()
-					var nextTime = getTime(Date.now() + 5*60*60*1000)
-					MSG.chat(MSG.RED(boss.name) + " 下次刷新 " + MSG.TIP(nextTime))
 				}
 				break
 			
@@ -187,9 +186,8 @@ module.exports = function BossHelper(mod) {
 					} else {
 						MSG.chat(MSG.BLU("已刷新 ") + MSG.PIK(boss.name))
 					}
-					saveTime()
-					console.log(new Date().toTimeString() + " 刷新 " + boss.name)
 					notificationafk("刷新 " + boss.name)
+					saveTime()
 				}
 				break
 			case 'SMT_WORLDSPAWN_NOTIFY_DESPAWN':
@@ -230,7 +228,15 @@ module.exports = function BossHelper(mod) {
 	
 	function getTime(thisTime) {
 		var Time = new Date(thisTime)
-		return Time.toLocaleString()
+		return	add_0(Time.getMonth()+1) + "/" + add_0(Time.getDate()) + " " +
+				add_0(Time.getHours())   + ":" + add_0(Time.getMinutes())
+	}
+	
+	function add_0(i) {
+		if (i < 10) {
+			i = "0" + i;
+		}
+		return i;
 	}
 	
 	function spawnItem(gameId, loc) {
@@ -273,7 +279,7 @@ module.exports = function BossHelper(mod) {
 		if (gage_info.curHp * 100n / gage_info.maxHp > boss_hp_stage) {
 			gage_info.curHp = gage_info.maxHp * boss_hp_stage / 100n;
 			update_hp();
-			mod.command.message('Correcting boss hp down to <font color="#E69F00">' + String(boss_hp_stage) + '</font>%');
+			mod.command.message('修正BOSS血量为 <font color="#E69F00">' + String(boss_hp_stage) + '</font>%');
 		}
 	}
 	
@@ -282,13 +288,13 @@ module.exports = function BossHelper(mod) {
 		gage_info.curHp = gage_info.maxHp;
 		correct_hp(e.hpLevel);
 		if (e.mode) {
-			mod.command.message('You missed ~ <font color="#E69F00">' + Math.round((99999999 - e.remainingEnrageTime)/1000) + '</font> sec. of the fight');
+			mod.command.message('你错过了 ~ <font color="#E69F00">' + Math.round((99999999 - e.remainingEnrageTime)/1000) + '</font> 秒的战斗');
 		}
 		
 		if (e.hpLevel == 5) {
-			mod.command.message("BAM is at full 100% hp, nobody touched it");
+			mod.command.message("BOSS血量为: 100%, 没人碰过它");
 		} else if (e.hpLevel == 0) {
-			mod.command.message("BAM is likely far below 20% hp, it may die any moment now");
+			mod.command.message('BOSS血量低于 <font color="#FF0000">20%</font> !!!');
 		}
 		
 		if (!hooks.length) {
