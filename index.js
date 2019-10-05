@@ -241,7 +241,7 @@ module.exports = function BossHelper(mod) {
 	
 	function spawnItem(gameId, loc) {
 		mod.send('S_SPAWN_DROPITEM', 8, {
-			gameId: gameId*100n,
+			gameId: gameId*10n,
 			loc: loc,
 			item: mod.settings.itemId,
 			amount: 1,
@@ -251,7 +251,7 @@ module.exports = function BossHelper(mod) {
 	
 	function despawnItem(gameId) {
 		mod.send('S_DESPAWN_DROPITEM', 4, {
-			gameId: gameId*100n
+			gameId: gameId*10n
 		})
 	}
 	
