@@ -14,7 +14,7 @@ module.exports = function BossHelper(mod) {
 	mod.command.add(["boss", "怪物"], (arg) => {
 		if (!arg) {
 			mod.settings.enabled = !mod.settings.enabled
-			MSG.chat("Boss-Helper " + (mod.settings.enabled ? MSG.BLU("开启") : MSG.YEL("关闭")))
+			MSG.chat("Boss-Helper: " + (mod.settings.enabled ? MSG.BLU("On") : MSG.YEL("Off")))
 			if (!mod.settings.enabled) {
 				for (let i of mobid) {
 					despawnItem(i)
