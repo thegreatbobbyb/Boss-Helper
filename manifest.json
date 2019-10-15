@@ -1,14 +1,14 @@
 {
     "files": {
-        "index.js": "b83982c939a7561bce52f7214e404081f608721ed45974915da78b4657b3e07d",
-        "module.json": "a7f8a4e0ad0108a601f8e5930d8443220202fa0ea610fec3939046e18e1b860c",
+        "index.js": "92970fcb4e50b7ca767bcde9ae473130ea9aa6da95a869ef9ad18eb9cedcefe9",
+        "module.json": "f2dd9aa2c81d2269039909e54baa7535aeca4aa16554d8c5b9a475d8de4d564a",
         "settings_migrator.js": "8d5676da4f7a5e257e47fcf99a4f487f0111a28501156ccb206736b103c1c43f"
     },
     "defs": {
         "S_BOSS_GAGE_INFO": 3,
         "S_DESPAWN_DROPITEM": 4,
         "S_DESPAWN_NPC": 3,
-        "S_EACH_SKILL_RESULT": 13,
+        "S_EACH_SKILL_RESULT": 14,
         "S_NPC_STATUS": 2,
         "S_SPAWN_DROPITEM": 8,
         "S_SPAWN_NPC": 11,

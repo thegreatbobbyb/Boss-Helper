@@ -305,7 +305,7 @@ module.exports = function BossHelper(mod) {
 				}
 			});
 			
-			hook('S_EACH_SKILL_RESULT', 13, (event) => {
+			hook('S_EACH_SKILL_RESULT', 14, (event) => {
 				if (event.target === gage_info.id && event.type === 1) {
 					gage_info.curHp -= event.value;
 					update_hp();
