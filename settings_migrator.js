@@ -87,9 +87,22 @@ const DefaultSettings = {
         {huntingZoneId:  72, templateId: 1276, logTime: 0, name: "3-交付哥布林(爾)"},
         {huntingZoneId: 183, templateId: 1276, logTime: 0, name: "4-交付哥布林(伊)"},
 /* ==== 世界BOSS ======================================================================================== */
-        {huntingZoneId: 26, templateId: 5001, logTime: 0, name: "奧勒曇(生命溪谷)"},
-        {huntingZoneId: 39, templateId:  501, logTime: 0, name: "哈迦叻(拓荒村莊)"},
-        {huntingZoneId: 51, templateId: 4001, logTime: 0, name: "蓋洛司(希望村莊)"}
+        {huntingZoneId:  26, templateId: 5001, logTime: 0, name: "奧勒曇(生命溪谷)"},
+        {huntingZoneId:  39, templateId:  501, logTime: 0, name: "哈迦叻(拓荒村莊)"},
+        {huntingZoneId:  51, templateId: 4001, logTime: 0, name: "蓋洛司(希望村莊)"},
+/* ==== 空岛稀有 ======================================================================================== */
+        {huntingZoneId: 2020, templateId: 1100, name: "空岛-高階高龍追擊者"},
+        {huntingZoneId: 2020, templateId: 1101, name: "空岛-高階高龍戰術支援家"},
+        {huntingZoneId: 2020, templateId: 1102, name: "空岛-高階高龍制壓者"},
+        {huntingZoneId: 2020, templateId: 1200, name: "空岛-精銳那伽神官"},
+        {huntingZoneId: 2020, templateId: 1201, name: "空岛-精銳那伽騎士"},
+        {huntingZoneId: 2020, templateId: 1202, name: "空岛-精銳那伽執行官"},
+        {huntingZoneId: 2020, templateId: 1300, name: "空岛-馬努克"},
+        {huntingZoneId: 2020, templateId: 1400, name: "空岛-埃席爾洛普"},
+        {huntingZoneId: 2020, templateId: 1500, name: "空岛-傑梅西斯"},
+        {huntingZoneId: 2020, templateId: 1600, name: "空岛-紅色苔蘚螃蟹"},
+        {huntingZoneId: 2020, templateId: 1601, name: "空岛-獨眼食腐獸"},
+        {huntingZoneId: 2020, templateId: 1700, name: "空岛-佩奇斯"}
     ]
 };
 
