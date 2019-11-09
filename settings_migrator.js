@@ -6,6 +6,12 @@ const DefaultSettings = {
     "marker":   true, // 光柱提示物标记
     "itemId":  98260, // 古龍貝勒古斯的頭
     "bosses": [
+        {huntingZoneId: 10,   templateId:       99, name: "(蛇岛)莎夏拉克"},
+        {huntingZoneId: 4,    templateId:     5011, name: "(爆炎)暴风喀纳什"},
+        {huntingZoneId: 38,   templateId:       35, name: "(古代)溃斯格连"},
+        {huntingZoneId: 57,   templateId:       33, name: "(孵化)卡恰斯坦"},
+        {huntingZoneId: 51,   templateId:     7011, name: "(蜘蛛)拉其奴亚"},
+        {huntingZoneId: 52,   templateId:     9050, name: "(蜥蜴)史内格斗司"},
         {huntingZoneId: 1023, templateId:     3000, name: "(活動)杜利溫的幻影"},
         {huntingZoneId: 1023, templateId: 20150805, name: "(活動)杜利溫的幻影"},
         {huntingZoneId: 1023, templateId: 88888888, name: "(活動)寶物箱"},
