@@ -2,6 +2,7 @@ const DefaultSettings = {
     "enabled":  true,
     "alerted":  true, // 屏中警告提示
     "notice":   true, // 团长通知提示
+    "party":   false, // 真实队长通知
     "messager": true, // 公告消息记录
     "marker":   true, // 光柱提示物标记
     "itemId":  98260, // 古龍貝勒古斯的頭
@@ -97,18 +98,18 @@ const DefaultSettings = {
         {huntingZoneId:  39, templateId:  501, logTime: 0, name: "哈迦叻(拓荒村莊)"},
         {huntingZoneId:  51, templateId: 4001, logTime: 0, name: "蓋洛司(希望村莊)"},
 /* ==== 空岛稀有 ======================================================================================== */
-        {huntingZoneId: 2020, templateId: 1100, name: "空岛-高階高龍追擊者"},
-        {huntingZoneId: 2020, templateId: 1101, name: "空岛-高階高龍戰術支援家"},
-        {huntingZoneId: 2020, templateId: 1102, name: "空岛-高階高龍制壓者"},
-        {huntingZoneId: 2020, templateId: 1200, name: "空岛-精銳那伽神官"},
-        {huntingZoneId: 2020, templateId: 1201, name: "空岛-精銳那伽騎士"},
-        {huntingZoneId: 2020, templateId: 1202, name: "空岛-精銳那伽執行官"},
-        {huntingZoneId: 2020, templateId: 1300, name: "空岛-馬努克"},
-        {huntingZoneId: 2020, templateId: 1400, name: "空岛-埃席爾洛普"},
-        {huntingZoneId: 2020, templateId: 1500, name: "空岛-傑梅西斯"},
-        {huntingZoneId: 2020, templateId: 1600, name: "空岛-紅色苔蘚螃蟹"},
-        {huntingZoneId: 2020, templateId: 1601, name: "空岛-獨眼食腐獸"},
-        {huntingZoneId: 2020, templateId: 1700, name: "空岛-佩奇斯"}
+        {huntingZoneId: 2020, templateId: 1100, name: "空岛(兵营/高階-中)-高龍追擊者"},
+        {huntingZoneId: 2020, templateId: 1101, name: "空岛(兵营/高階-下)-高龍戰術支援家"},
+        {huntingZoneId: 2020, templateId: 1102, name: "空岛(兵营/高階-上)-高龍制壓者"},
+        {huntingZoneId: 2020, templateId: 1200, name: "空岛(卢地/精銳-下)-那伽神官"},
+        {huntingZoneId: 2020, templateId: 1201, name: "空岛(卢地/精銳-上)-那伽騎士"},
+        {huntingZoneId: 2020, templateId: 1202, name: "空岛(卢地/精銳-中)-那伽執行官"},
+        {huntingZoneId: 2020, templateId: 1300, name: "空岛(猴子)-馬努克"},
+        {huntingZoneId: 2020, templateId: 1400, name: "空岛(蜘蛛)-埃席爾洛普"},
+        {huntingZoneId: 2020, templateId: 1500, name: "空岛(蜥蜴)-傑梅西斯"},
+        {huntingZoneId: 2020, templateId: 1600, name: "空岛(螃蟹)-紅色苔蘚螃蟹"},
+        {huntingZoneId: 2020, templateId: 1601, name: "空岛(蚂蚁)-獨眼食腐獸"},
+        {huntingZoneId: 2020, templateId: 1700, name: "空岛(肥虫)-佩奇斯"}
     ]
 };
 

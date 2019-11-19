@@ -9,7 +9,10 @@ module.exports = function BossHelper(mod) {
 		sysMsg = null,
 		npcID = null,
 		bossHunting = 0,
-		bossTemplate = 0
+		bossTemplate = 0,
+		
+		party = false,
+		currentChannel = 0
 	
 	mod.command.add(["boss", "怪物"], (arg) => {
 		if (!arg) {
@@ -29,6 +32,10 @@ module.exports = function BossHelper(mod) {
 				case "通知":
 					mod.settings.notice = !mod.settings.notice
 					MSG.chat("通知消息 " + (mod.settings.notice ? MSG.BLU("启用") : MSG.YEL("禁用")))
+					break
+				case "组队":
+					party = !party
+					MSG.chat("队内频道 " + (party ? MSG.BLU("启用") : MSG.YEL("禁用")))
 					break
 				case "消息":
 					mod.settings.messager = !mod.settings.messager
@@ -87,6 +94,10 @@ module.exports = function BossHelper(mod) {
 		mobid = []
 	})
 	
+	mod.hook('S_CURRENT_CHANNEL', 2, (event) => {
+		currentChannel = Number(event.channel)
+	})
+	
 	mod.hook('S_SPAWN_NPC', 11, (event) => {
 		if (!mod.settings.enabled) return
 		
@@ -99,7 +110,12 @@ module.exports = function BossHelper(mod) {
 			if (mod.settings.alerted) {
 				MSG.alert(("发现 " + boss.name), 44)
 			}
-			if (mod.settings.notice) {
+			if (party) {
+				mod.send('C_CHAT', 1, {
+					channel: 21,
+					message: (currentChannel + "线 - 发现 " + boss.name)
+				})
+			} else if (mod.settings.notice) {
 				MSG.raids("发现 " + boss.name)
 			}
 		}
