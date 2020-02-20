@@ -1,8 +1,8 @@
 {
     "files": {
-        "index.js": "772b94d23a5039503f7f6da59298bc53f8b56d3af0cdba79e2b8e958b52e669b",
-        "module.json": "934d4576f46648bf4b0b06527055f0080945cbcdca56f604911a2bd533a2e263",
-        "settings_migrator.js": "59be93ab54faf3bcb0beaf9fde2a3bf03b04a0a706add4afa796310f9c8c3317"
+        "index.js": "6582c3dd74232e165820365b946c421be52debe0241ba408c977a06f23827bc9",
+        "module.json": "14aabf283f0bb6391b8d24455d2d81a75e62a761a7fb53bf8471c19309477d4f",
+        "settings_migrator.js": "856a694d7801035670167f2ef217a2f975f99ae7d7863bf9b348921e00b99eb0"
     },
     "defs": {
         "C_CHAT": 1,
@@ -11,6 +11,7 @@
         "S_DESPAWN_DROPITEM": 4,
         "S_DESPAWN_NPC": 3,
         "S_EACH_SKILL_RESULT": 14,
+        "S_NOTIFY_GUILD_QUEST_URGENT": 1,
         "S_NPC_STATUS": 2,
         "S_SPAWN_DROPITEM": 8,
         "S_SPAWN_NPC": 11,

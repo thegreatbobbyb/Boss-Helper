@@ -97,6 +97,16 @@ const DefaultSettings = {
         {huntingZoneId:  26, templateId: 5001, logTime: 0, name: "奧勒曇(生命溪谷)"},
         {huntingZoneId:  39, templateId:  501, logTime: 0, name: "哈迦叻(拓荒村莊)"},
         {huntingZoneId:  51, templateId: 4001, logTime: 0, name: "蓋洛司(希望村莊)"},
+/* ==== 公会BOSS ======================================================================================== */
+        {huntingZoneId:  29, templateId: 2001, name: "貪婪的阿嵐夏(古代森林)"},
+        {huntingZoneId:  34, templateId: 2002, name: "憤怒的卡魯古斯(寒冰凍原)"},
+        {huntingZoneId:  34, templateId: 2003, name: "憤怒的煞布拉尼惡(寒冰凍原)"},
+        {huntingZoneId: 152, templateId: 2001, name: "貪婪的阿嵐夏(貝利卡: 戰亂時代)152-2001"},
+        {huntingZoneId: 152, templateId: 2002, name: "憤怒的卡魯古斯(貝利卡: 戰亂時代)152-2002"},
+        {huntingZoneId: 152, templateId: 2003, name: "虐殺的煞布拉尼惡(貝利卡: 戰亂時代)152-2003"},
+        {huntingZoneId: 152, templateId: 7001, name: "貪婪的阿嵐夏(貝利卡: 戰亂時代)152-7001"},
+        {huntingZoneId: 152, templateId: 7002, name: "憤怒的卡魯古斯(貝利卡: 戰亂時代)152-7002"},
+        {huntingZoneId: 152, templateId: 7003, name: "虐殺的煞布拉尼惡(貝利卡: 戰亂時代)152-7003"},
 /* ==== 空岛稀有 ======================================================================================== */
         {huntingZoneId: 2020, templateId: 1100, name: "空岛(兵营/高階-中)-高龍追擊者"},
         {huntingZoneId: 2020, templateId: 1101, name: "空岛(兵营/高階-下)-高龍戰術支援家"},

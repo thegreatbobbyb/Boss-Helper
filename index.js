@@ -169,6 +169,30 @@ module.exports = function BossHelper(mod) {
 		mobid.splice(mobid.indexOf(event.gameId), 1)
 	})
 	
+	mod.hook('S_NOTIFY_GUILD_QUEST_URGENT', 1, (event) => {
+		switch (event.quest) {
+			case "@GuildQuest:10005001":
+				whichBoss(event.zoneId, 2001)
+				break
+			case "@GuildQuest:10006001":
+				whichBoss(event.zoneId, 2002)
+				break
+			case "@GuildQuest:10007001":
+				whichBoss(event.zoneId, 2003)
+				break
+		}
+		
+		if (boss && event.type == 0) {
+			MSG.chat(MSG.BLU("公会王 ") + MSG.RED(boss.name))
+			notificationafk("公会王 " + boss.name)
+		}
+		
+		if (boss && event.type == 1) {
+			MSG.chat(MSG.BLU("已刷新 ") + MSG.TIP(boss.name))
+			notificationafk("已刷新 " + boss.name)
+		}
+	})
+	
 	mod.hook('S_SYSTEM_MESSAGE', 1, (event) => {
 		if (!mod.settings.enabled || !mod.settings.messager) return
 		
@@ -179,7 +203,7 @@ module.exports = function BossHelper(mod) {
 				whichBoss(bossHunting, bossTemplate)
 				if (boss) {
 					MSG.chat(MSG.BLU("已刷新 ") + MSG.RED(boss.name))
-					notificationafk("刷新 " + boss.name)
+					notificationafk("已刷新 " + boss.name)
 				}
 				break
 			case 'SMT_FIELDBOSS_DIE_GUILD':
@@ -202,7 +226,7 @@ module.exports = function BossHelper(mod) {
 					} else {
 						MSG.chat(MSG.BLU("已刷新 ") + MSG.PIK(boss.name))
 					}
-					notificationafk("刷新 " + boss.name)
+					notificationafk("已刷新 " + boss.name)
 					saveTime()
 				}
 				break
