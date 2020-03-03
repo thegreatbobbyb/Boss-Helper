@@ -285,7 +285,8 @@ module.exports = function BossHelper(mod) {
 			loc: loc,
 			item: mod.settings.itemId,
 			amount: 1,
-			expiry: 999999
+			expiry: 999999,
+			owners: [{}]
 		})
 	}
 	
