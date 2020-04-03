@@ -5,7 +5,7 @@ const DefaultSettings = {
     "party":   false, // 真实队长通知
     "messager": true, // 公告消息记录
     "marker":   true, // 光柱提示物标记
-    "itemId":  98260, // 古龍貝勒古斯的頭
+    "itemId":  88704, // 貝利卡宴會紀念幣
     "bosses": [
         {huntingZoneId: 10,   templateId:       99, name: "(蛇岛)莎夏拉克"},
         {huntingZoneId: 4,    templateId:     5011, name: "(爆炎)暴风喀纳什"},
@@ -121,20 +121,20 @@ const DefaultSettings = {
         {huntingZoneId: 2020, templateId: 1601, name: "空岛(蚂蚁)-獨眼食腐獸"},
         {huntingZoneId: 2020, templateId: 1700, name: "空岛(肥虫)-佩奇斯"}
     ]
-};
+}
 
 module.exports = function MigrateSettings(from_ver, to_ver, settings) {
     if (from_ver === undefined) {
         // Migrate legacy config file
-        return Object.assign(Object.assign({}, DefaultSettings), settings);
+        return Object.assign(Object.assign({}, DefaultSettings), settings)
     } else if (from_ver === null) {
         // No config file exists, use default settings
-        return DefaultSettings;
+        return DefaultSettings
     } else {
         // Migrate from older version (using the new system) to latest one
         if (from_ver + 1 < to_ver) { // Recursively upgrade in one-version steps
-            settings = MigrateSettings(from_ver, from_ver + 1, settings);
-            return MigrateSettings(from_ver + 1, to_ver, settings);
+            settings = MigrateSettings(from_ver, from_ver + 1, settings)
+            return MigrateSettings(from_ver + 1, to_ver, settings)
         }
         // If we reach this point it's guaranteed that from_ver === to_ver - 1, so we can implement
         // a switch for each version step that upgrades to the next version. This enables us to
@@ -142,15 +142,15 @@ module.exports = function MigrateSettings(from_ver, to_ver, settings) {
         switch (to_ver) {
             default:
                 let oldsettings = settings
-                settings = Object.assign(DefaultSettings, {});
+                settings = Object.assign(DefaultSettings, {})
                 for (let option in oldsettings) {
-                    if (option == "bosses") continue
+                    if (option == "itemId") continue
                     if (settings[option]) {
                         settings[option] = oldsettings[option]
                     }
                 }
-                break;
+                break
         }
-        return settings;
+        return settings
     }
 }

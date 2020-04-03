@@ -120,27 +120,27 @@ module.exports = function BossHelper(mod) {
 			}
 		}
 		
-		if (event.walkSpeed != 240) return;
+		if (event.walkSpeed != 240) return
 		
 		switch (event.templateId) {
 			case 5001: // Ortan
-				event.shapeId = 303730;
-				event.huntingZoneId = 434;
-				event.templateId = 7000;
-				load(event);
-				return true;
+				event.shapeId = 303730
+				event.huntingZoneId = 434
+				event.templateId = 7000
+				load(event)
+				return true
 			case 501:  // Hazard
-				event.shapeId = 303740;
-				event.huntingZoneId = 777;
-				event.templateId = 77730;
-				load(event);
-				return true;
+				event.shapeId = 303740
+				event.huntingZoneId = 777
+				event.templateId = 77730
+				load(event)
+				return true
 			case 4001: // Cerrus
-				event.shapeId = 303750;
-				event.huntingZoneId = 994;
-				event.templateId = 1000;
-				load(event);
-				return true;
+				event.shapeId = 303750
+				event.huntingZoneId = 994
+				event.templateId = 1000
+				load(event)
+				return true
 		}
 	})
 	
@@ -274,9 +274,9 @@ module.exports = function BossHelper(mod) {
 	
 	function add_0(i) {
 		if (i < 10) {
-			i = "0" + i;
+			i = "0" + i
 		}
-		return i;
+		return i
 	}
 	
 	function spawnItem(gameId, loc) {
@@ -311,67 +311,67 @@ module.exports = function BossHelper(mod) {
 		hooks = []
 	
 	function update_hp() {
-		mod.toClient('S_BOSS_GAGE_INFO', 3, gage_info);
+		mod.toClient('S_BOSS_GAGE_INFO', 3, gage_info)
 	}
 	// 0: 0% <= hp < 20%, 1: 20% <= hp < 40%, 2: 40% <= hp < 60%, 3: 60% <= hp < 80%, 4: 80% <= hp < 100%, 5: 100% hp
 	function correct_hp(stage) {
-		let boss_hp_stage = BigInt(20*(1+stage));
+		let boss_hp_stage = BigInt(20*(1+stage))
 		// we missed some part of the fight?
 		if (gage_info.curHp * 100n / gage_info.maxHp > boss_hp_stage) {
-			gage_info.curHp = gage_info.maxHp * boss_hp_stage / 100n;
-			update_hp();
-			mod.command.message('修正BOSS血量为 <font color="#E69F00">' + String(boss_hp_stage) + '</font>%');
+			gage_info.curHp = gage_info.maxHp * boss_hp_stage / 100n
+			update_hp()
+			mod.command.message('修正BOSS血量为 <font color="#E69F00">' + String(boss_hp_stage) + '</font>%')
 		}
 	}
 	
 	function load(e) {
-		gage_info.id = e.gameId;
-		gage_info.curHp = gage_info.maxHp;
-		correct_hp(e.hpLevel);
+		gage_info.id = e.gameId
+		gage_info.curHp = gage_info.maxHp
+		correct_hp(e.hpLevel)
 		if (e.mode) {
-			mod.command.message('你错过了 ~ <font color="#E69F00">' + Math.round((99999999 - e.remainingEnrageTime)/1000) + '</font> 秒的战斗');
+			mod.command.message('你错过了 ~ <font color="#E69F00">' + Math.round((99999999 - e.remainingEnrageTime)/1000) + '</font> 秒的战斗')
 		}
 		
 		if (e.hpLevel == 5) {
-			mod.command.message("BOSS血量为: 100%, 没人碰过它");
+			mod.command.message("BOSS血量为: 100%, 没人碰过它")
 		} else if (e.hpLevel == 0) {
-			mod.command.message('BOSS血量低于 <font color="#FF0000">20%</font> !!!');
+			mod.command.message('BOSS血量低于 <font color="#FF0000">20%</font> !!!')
 		}
 		
 		if (!hooks.length) {
-			setTimeout(update_hp, 1000);
+			setTimeout(update_hp, 1000)
 			hook('S_NPC_STATUS', 2, (event) => {
 				if (event.gameId === gage_info.id) {
-					correct_hp(event.hpLevel);
+					correct_hp(event.hpLevel)
 				}
-			});
+			})
 			
 			hook('S_EACH_SKILL_RESULT', 14, (event) => {
 				if (event.target === gage_info.id && event.type === 1) {
-					gage_info.curHp -= event.value;
-					update_hp();
+					gage_info.curHp -= event.value
+					update_hp()
 				}
-			});
+			})
 			
 			hook('S_DESPAWN_NPC', 3, (event) => {
 				if (event.gameId === gage_info.id) {
-					unload();
+					unload()
 				}
-			});
+			})
 		}
 	}
 	
 	function unload() {
 		if (hooks.length) {
 			for (let h of hooks) {
-				mod.unhook(h);
+				mod.unhook(h)
 			}
 			hooks = []
 		}
 	}
 	
 	function hook() {
-		hooks.push(mod.hook(...arguments));
+		hooks.push(mod.hook(...arguments))
 	}
 	
 	function notificationafk(msg, timeout) { // timeout in milsec
