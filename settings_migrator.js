@@ -144,7 +144,6 @@ module.exports = function MigrateSettings(from_ver, to_ver, settings) {
                 let oldsettings = settings
                 settings = Object.assign(DefaultSettings, {})
                 for (let option in oldsettings) {
-                    if (option == "itemId") continue
                     if (settings[option]) {
                         settings[option] = oldsettings[option]
                     }

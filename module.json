@@ -1,8 +1,8 @@
 {
     "name": "Boss-Helper",
     "options": {
-        "niceName": "怪物提示",
-        "guiName": "怪物提示(Boss-Helper)",
+        "niceName": "Boss-Helper",
+        "guiName": "Boss-Helper(怪物提示)",
         "settingsFile": "config.json",
         "settingsMigrator": "settings_migrator.js",
         "settingsVersion": 12
@@ -15,5 +15,5 @@
         "notifier": "https://raw.githubusercontent.com/SerenTera/tera-notifier/master/module.json",
         "tera-message": "https://raw.githubusercontent.com/tera-mod/tera-message/master/module.json"
     },
-    "version": "92.03"
+    "version": "92.04"
 }
