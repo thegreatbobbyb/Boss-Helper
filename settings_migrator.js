@@ -24,6 +24,11 @@ const DefaultSettings = {
         {huntingZoneId: 1023, templateId: 99999992, name: "(活動)偷蛋賊西奴斯"},
         {huntingZoneId: 1023, templateId: 99999999, name: "(活動)偷蛋賊西奴斯"},
         {huntingZoneId:  183, templateId:     6002, name: "(活動)空投"},
+        {huntingZoneId:  10, templateId:     1, name: "Harbor Hermit Crab"},
+		{huntingZoneId:  10, templateId:     1021, name: "Hot Springs Crab"},
+		{huntingZoneId:  12, templateId:     1, name: "Harbor Hermit Crab"},
+		{huntingZoneId:  12, templateId:     1021, name: "Hot Springs Crab"},
+        
 /* ==== 亚伦南部 ======================================================================================== */
         {huntingZoneId:   2, templateId: 1271, name: "[阿卡尼亞領地]阿勒坤(西部砍伐區)"},
         {huntingZoneId:   3, templateId: 1271, name: "[阿卡尼亞領地]阿勒坤(遺忘森林)"},
